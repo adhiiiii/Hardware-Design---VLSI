@@ -1,6 +1,6 @@
 
 # Week 1 
-## 1) iverilog and gtkwave
+## 1) 'iverilog' and 'gtkwave' Execution
 
 MUX 
 
@@ -12,3 +12,4 @@ Counter
 ![3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/6d20e694-f69b-4ab2-9572-f8d363379ea6)
 ![4](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/748f250c-3926-4e8a-97f0-2c1fad6bc792)
 
+## 2) 'yosys' using sky130 lib

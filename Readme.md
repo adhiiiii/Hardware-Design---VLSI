@@ -3,7 +3,9 @@
    1) yosys
    2) iverilog
    3) gtkwave
-## Week1 -- InProgress
+## Week1 -- In Progress
+  1) iverilog and gtkwave
+  2) 'yosys' using sky130 lib
 ## Week2
 ## Week3
 ## Week4

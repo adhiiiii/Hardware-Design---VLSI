@@ -13,3 +13,8 @@ Counter
 ![4](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/748f250c-3926-4e8a-97f0-2c1fad6bc792)
 
 ## 2) 'yosys' using sky130 lib
+
+MUX Synthesis
+
+![5_S](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/3862fac0-c12e-4141-838a-dbc736b5e775)
+![6](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/c5155e34-5eca-44f2-aedb-1d913fa6ac3b)

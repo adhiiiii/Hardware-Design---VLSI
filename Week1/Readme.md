@@ -22,7 +22,7 @@ MUX Synthesis
 ![8](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/e555a578-1f9a-4928-a4be-e6ec01889355)
 ![9](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/383fb14a-4f13-4788-a600-e97c918ba6f5)
 
-## 2) Hierarchical - Flat Synthesis
+## 3) Hierarchical - Flat Synthesis
 Hierarchical - Flat Synthesis
 Multiple modules --> _(AND + OR)_ --> _CMOS :(NMOS + PMOS)_
 
@@ -32,3 +32,4 @@ Multiple modules --> _(AND + OR)_ --> _CMOS :(NMOS + PMOS)_
 ![13](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/6c94c9e0-b2fa-4f78-8296-6cf49293f807)
 ![14](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/7d4669a4-aa18-4ffb-ae3b-04c7576d1e83)
 ![16](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/13e6ed2b-54fe-459e-a3e9-a3b0e8abe94e)
+![17](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/536c31b5-80f0-464c-bd15-6fc4b37b9ac8)

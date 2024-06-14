@@ -1,9 +1,9 @@
 # Hardware Design
-## Prerequisite -- Updated
+## Prerequisite 
    1) yosys
    2) iverilog
    3) gtkwave
-## Week1
+## Week1 -- InProgress
 ## Week2
 ## Week3
 ## Week4

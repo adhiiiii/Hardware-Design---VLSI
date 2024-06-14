@@ -31,3 +31,4 @@ Multiple modules --> _(AND + OR)_ --> _CMOS :(NMOS + PMOS)_
 ![12](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/ccec0584-331f-4983-8bef-fb72dee8e9ba)
 ![13](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/6c94c9e0-b2fa-4f78-8296-6cf49293f807)
 ![14](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/7d4669a4-aa18-4ffb-ae3b-04c7576d1e83)
+![16](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/13e6ed2b-54fe-459e-a3e9-a3b0e8abe94e)

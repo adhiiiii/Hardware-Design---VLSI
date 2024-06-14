@@ -7,5 +7,5 @@ MUX
 
 Counter
 ![3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/6d20e694-f69b-4ab2-9572-f8d363379ea6)
-![4_ok](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2d153246-9d41-4128-b8a5-3a1abb3f5b37)
+
 

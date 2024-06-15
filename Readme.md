@@ -5,7 +5,7 @@
    3) _gtkwave_
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Prerequisite/Readme.md
-## Week1 -- In Progress
+## Week1 -- Updated
   1) _iverilog_ and _gtkwave_ Execution
   2) _yosys_ using sky130 lib
   3) Hierarchical-Flat-Submodule Synthesis

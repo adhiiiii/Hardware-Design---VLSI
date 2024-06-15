@@ -42,4 +42,4 @@ Submodule Synthesis
 ![26](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/0d26bcb6-d8c3-4ff9-b8b9-17e076311b0a)
 ![27](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2b354fd6-9d3d-4930-a0d2-8c0f6c8dbf5c)
 
-## 4)Flop - Synthesis - Optimisation - In progress
+## 4) Flop - Synthesis - Optimisation - In progress

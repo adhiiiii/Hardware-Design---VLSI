@@ -33,5 +33,14 @@ Multiple modules --> _(AND + OR)_ --> _CMOS :(NMOS + PMOS)_
 ![14](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/7d4669a4-aa18-4ffb-ae3b-04c7576d1e83)
 ![16](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/13e6ed2b-54fe-459e-a3e9-a3b0e8abe94e)
 ![17](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/536c31b5-80f0-464c-bd15-6fc4b37b9ac8)
+![22](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/778fdf68-a526-47be-a5c4-d603ae132685)
+![23_flatten](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/1625bb18-018e-4832-b547-5d62f5266b18)
+
+Submodule Synthesis
+
+![24_submodule](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/4f4db5fa-b428-4b80-b6af-ec4c2c9b58e6)
+![25](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/9e83de61-fbc8-4d05-a1fc-ef8f5777a00e)
+![26](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/0d26bcb6-d8c3-4ff9-b8b9-17e076311b0a)
+![27](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2b354fd6-9d3d-4930-a0d2-8c0f6c8dbf5c)
 
 ## 4)Synthesis - Optimisation - In progress

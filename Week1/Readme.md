@@ -51,3 +51,5 @@ Aysnc Reset
 ![30_Async](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/d7f38ca4-c152-4425-b96a-ef003b0a2bad)
 
 Aysnc Set
+![31_Asyn_Set](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/3a6b940c-5991-4942-829f-1c995cc917b9)
+![32](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/9abf42ef-99fa-49b8-8454-d630f8750c4d)

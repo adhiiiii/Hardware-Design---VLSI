@@ -1,8 +1,8 @@
 # Hardware Design
 ## Prerequisite 
-   1) yosys
-   2) iverilog
-   3) gtkwave
+   1) _yosys_
+   2) _iverilog_
+   3) _gtkwave_
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Prerequisite/Readme.md
 ## Week1 -- In Progress

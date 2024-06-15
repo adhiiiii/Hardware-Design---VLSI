@@ -44,3 +44,10 @@ Submodule Synthesis
 ![27](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2b354fd6-9d3d-4930-a0d2-8c0f6c8dbf5c)
 
 ## 4) Flop - Synthesis - Optimisation 
+
+Aysnc Reset
+
+![29_async](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/42a6384e-c935-4623-ab0e-a63b9d76d3cb)
+![30_Async](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/d7f38ca4-c152-4425-b96a-ef003b0a2bad)
+
+Aysnc Set

@@ -18,3 +18,8 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week1/Readme.md
 ## Week3
 ## Week4
 ## Week5
+## Week6
+## Week7
+## Week8
+## Week9
+## Week10

@@ -15,6 +15,12 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Prerequisite/Readme
      
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week1/Readme.md
 ## Week2
+
+
+## _UART - Verilog - Testbench Simulation_
+
+https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Requirements/Readme.md
+
 ## Week3
 ## Week4
 ## Week5

@@ -16,6 +16,7 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Prerequisite/Readme
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week1/Readme.md
 ## Week2
 
+https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week2/Readme.md
 
 ### _UART_
 

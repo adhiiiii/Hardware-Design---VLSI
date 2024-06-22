@@ -80,3 +80,12 @@ Async Set
 
 ![10](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/1fd88e68-6bb8-4e2d-9541-a0218e3f8f8e)
 ![11](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/54c502f4-c7db-4486-8aad-2bc7e608a65e)
+
+Sync Reset
+
+![12_Sync_Reset](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/d6809568-ac19-4786-a2b7-923302513218)
+
+Optimized version
+
+![13_optimized_Diagram](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/abf5dfd2-edad-41ea-b4d1-6b7ba5434a41)
+

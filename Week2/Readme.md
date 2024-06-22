@@ -2,5 +2,5 @@
 
 In Progress
 
-Lagging behind - Will catch up this with week3
+Lagging behind - Will close with week3
 

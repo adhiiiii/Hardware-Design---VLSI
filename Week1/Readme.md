@@ -63,7 +63,9 @@ Sync Reset
 ![3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/7ddb3cc5-9743-4b42-b8ce-7708a6441c89)
 
 ### Synthesis
+
 Async Reset
+
 ![4](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/d77ddf32-ff64-4f32-be7d-796b059b44f7)
 ![5](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/c271b4ed-487d-485a-a8be-f0e5abac0078)
 
@@ -73,6 +75,8 @@ Map D FF specific lib
 ![7](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/b8e096d7-8511-46c8-b08b-6f77cafedb9b)
 ![8](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/9391434d-1dbb-42ca-b01c-64c4c4835962)
 ![9](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/1f2cd6a4-f66f-49d0-9558-dbfdbf3ef623)
+
+Async Set
 
 ![10](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/1fd88e68-6bb8-4e2d-9541-a0218e3f8f8e)
 ![11](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/54c502f4-c7db-4486-8aad-2bc7e608a65e)

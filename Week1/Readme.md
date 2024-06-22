@@ -57,4 +57,9 @@ Aysnc Set
 
 Sync Reset
 
+![1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/fc8a59be-7b60-43c3-bd71-b475ed90d62b)
+![2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/c04a8697-746b-4f26-b8c2-3ecf5109241a)
+![3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/7ddb3cc5-9743-4b42-b8ce-7708a6441c89)
+
+
 Sync Set

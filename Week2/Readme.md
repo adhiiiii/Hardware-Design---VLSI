@@ -61,7 +61,7 @@ c) Synthesis and Optimization - _dff_const3_
 ![16](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/e0dcd666-a409-4ce7-92f9-2531df632d1b)
 ![17](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/ffa8a1d7-5066-43c2-986c-a30787cf9a9b)
 ![18](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/8b87b648-802d-40f8-82f2-73e5458bc4fe)
-![19](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/61caffaa-ac71-4c57-ba54-81acd8fa5a38)
+
 
 d) Synthesis and Optimization - _dff_const4_
 

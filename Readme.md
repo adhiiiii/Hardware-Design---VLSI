@@ -14,7 +14,10 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Prerequisite/Readme
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week1/Readme.md
 ## Week2 -- In Progress
 
-In Progress
+1) Combinational Logic Optimizations
+ a)_opt_check4.v_
+ b)_multiple_module_opt.v_
+ c)_multiple_module_opt2.v_
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week2/Readme.md
 

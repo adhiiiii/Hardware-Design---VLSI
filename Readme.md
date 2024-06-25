@@ -15,7 +15,6 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week1/Readme.md
 ## Week2 -- In Progress
 
 1) Combinational Logic Optimizations
-
 2) Sequential Logic Optimizations
    
 

@@ -1,6 +1,3 @@
-# Week 2
 
-In Progress
-
-Lagging behind - Will close with week3
-
+# Week 2 
+## 1) Combinational Logic Optimizations

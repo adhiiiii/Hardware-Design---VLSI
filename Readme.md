@@ -22,6 +22,9 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week1/Readme.md
 
     c) _multiple_module_opt2.v_
 
+2) Sequential Logic Optimizations
+   
+
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week2/Readme.md
 
   #### UART

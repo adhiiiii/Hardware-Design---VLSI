@@ -12,7 +12,7 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Prerequisite/Readme
   4) Flop - Synthesis - Optimisation 
      
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week1/Readme.md
-## Week-2 -- In Progress
+## Week-2 
 
 1) Combinational Logic Optimizations
 2) Sequential Logic Optimizations
@@ -20,7 +20,7 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week1/Readme.md
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week2/Readme.md
 
-  #### UART
+  #### UART -- In Progress
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Requirements/Readme.md
 

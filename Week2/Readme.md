@@ -86,3 +86,18 @@ f) Sequential - Counter - Unused optimization
 ![3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/6449a4f5-adff-4a65-a635-4abadf211645)
 ![4_synth](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/dd5541d1-da1a-4134-ab6a-a53fccc92df0)
 ![5](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/9ea0da96-5f25-40f5-815a-da7b473f12ff)
+
+g) RTL Vs Gate Level Simulation - Mismatch 
+
+![1_2c1_RTL_SImulation](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/d645043e-5e91-4934-af9b-01f34c92780f)
+![1_Vernary_op](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/b1f1d8ca-a07b-4b71-a49e-8a704e255741)
+![3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/62391f8b-e03c-4ad8-8864-8645deb42e41)
+![4](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/fc3b7b51-f0ee-4ef0-83f3-c4bee0bc26d8)
+![5](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/c003e541-3123-46a1-b125-e853c26aec1b)
+![6](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/1e6274e1-5d07-42bc-9458-44b484f78a69)
+![7_Bad_MUX](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/cc34540d-cec1-4655-a654-effca8bcf17d)
+![8_no_change in output y](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/a33113f0-48b0-4c74-95a3-16e9ff4e966e)
+![9](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/ff7407cf-2263-455c-a8ed-68306ecec82b)
+![10](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/05006c15-7e0a-4bd0-85e0-5d211ac8d816)
+![11](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/9ebd2f93-b64c-43ae-80c3-2ca4054aa52b)
+

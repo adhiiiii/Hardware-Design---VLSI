@@ -101,3 +101,12 @@ g) RTL Vs Gate Level Simulation - Mismatch
 ![10](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/05006c15-7e0a-4bd0-85e0-5d211ac8d816)
 ![11](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/9ebd2f93-b64c-43ae-80c3-2ca4054aa52b)
 
+h) RTL Vs Gatelevel Simulation - Blocking Statement Mismatch
+
+![12](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/0d4e107c-c476-41e8-a046-cbcebeb308af)
+![13](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/27b9db9f-e56f-4a8d-82a6-8a47d832c111)
+![14](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/8e190356-e11b-4ec0-870c-2193cead8af9)
+![15](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/5f9da39c-8cc6-4bc0-b80a-bf8dd2b5f0de)
+![16](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/f187b3fc-50d5-4ba7-8da1-bdb5e1e2460a)
+![17](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/b10496ab-d639-4e7f-adc1-585c9b376c6a)
+![18_mismatch_due_to_blocking](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/bc05d65c-cf4f-4a73-8669-421474d29a97)

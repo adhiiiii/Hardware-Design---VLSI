@@ -103,6 +103,9 @@ g) RTL Vs Gate Level Simulation - Mismatch
 
 h) RTL Vs Gatelevel Simulation - Blocking Statement Mismatch
 
+Below Simulation shows out D as 'high', expected output as per combinational logic is 'low'
+
+![11](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/26ffc820-9788-41c2-9d6e-047156733d1f)
 ![12](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/0d4e107c-c476-41e8-a046-cbcebeb308af)
 ![13](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/27b9db9f-e56f-4a8d-82a6-8a47d832c111)
 ![14](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/8e190356-e11b-4ec0-870c-2193cead8af9)

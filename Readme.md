@@ -16,7 +16,7 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week1/Readme.md
 
 1) Combinational Logic Optimizations
 2) Sequential Logic Optimizations
-   
+3) Gate Level Simulation  
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week2/Readme.md
 

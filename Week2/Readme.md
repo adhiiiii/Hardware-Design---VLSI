@@ -78,3 +78,11 @@ e) Synthesis and Optimization - _dff_const5_
 ![24](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/d93d6c64-aac8-46ef-88bf-72028053c062)
 ![25](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2c9f62a4-3887-4f95-ab34-e9bc4874e861)
 ![26](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/b07a6b25-7dd9-403c-b329-811ef386b7f0)
+
+f) Sequential - Counter - Unused optimization
+
+![1_simulation](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/b0a0c01a-dfd1-42bb-89fd-d58f74c7c571)
+![2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/74cc73bd-430b-4eb7-8b96-8acc1e266688)
+![3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/6449a4f5-adff-4a65-a635-4abadf211645)
+![4_synth](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/dd5541d1-da1a-4134-ab6a-a53fccc92df0)
+![5](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/9ea0da96-5f25-40f5-815a-da7b473f12ff)

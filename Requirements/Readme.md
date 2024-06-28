@@ -31,7 +31,7 @@ Frame is collection of fixed size bits
 
  UART ==> baud_rate_gen + receiver + transmitter
  
- ![3 1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/22d90ec8-1e38-43f1-983f-69a738f65d38)
+ ![3 1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/e2b2e3ef-2ac3-450d-9576-9710ca58c39b)
 
 
 ## UART Simulation

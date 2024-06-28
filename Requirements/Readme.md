@@ -10,8 +10,6 @@ Protcol for UART as follows
 
 1) It is two wire one to one communication protocol, 
 
-![UART](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/df288d5a-42b1-4675-80ce-3ae8a916d548)
-
 2) Mode of communication - can be simplex,half-duplex or full duplex
 here planning only simplex,which can be extended to other modes,
 

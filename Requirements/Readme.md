@@ -13,6 +13,8 @@ Protcol for UART as follows
 2) Mode of communication - can be simplex,half-duplex or full duplex
 here planning only simplex,which can be extended to other modes,
 
+![UART](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/b7b67d52-6ca8-4b07-ab54-2bf2b9d4a019)
+
 3) since it is digital systems the tranmitter and reciver need to operate with same speed
 
 4) Data is transmitted as frames

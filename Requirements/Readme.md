@@ -27,6 +27,11 @@ Frame is collection of fixed size bits
 
 ![3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2e9baf11-257f-4162-9d4f-4b95c6009ca3)
 
+## UART Block Diagram
+
+ UART ==> baud_rate_gen + receiver + transmitter
+
+
 
 ## UART Simulation
 

@@ -22,5 +22,16 @@ here planning only simplex,which can be extended to other modes,
 Frame is collection of fixed size bits
 
 1) Start and stop bits -  1 each bit (stop bit/s can be either 1 or 2 bits)
-2) Optinal parity bit - 5 to 9 bits
+2) Optinal parity bit - 5 to 9 bits // here we are not adding parity bit
 3) Data bits  - 1 bit
+
+![3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2e9baf11-257f-4162-9d4f-4b95c6009ca3)
+
+
+## UART Simulation
+
+![1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/f133bde3-9a6e-4fa9-a103-bc5d97e7b8df)
+
+![2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/80c51204-2ac4-4704-a47c-abfa24867c7c)
+
+In progress

@@ -28,7 +28,7 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week2/Readme.md
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Requirements/Readme.md
 
-_will revisit previous weeks and update with comments_
+_will revisit previous weeks and update with comments, uart -in progress_
 
 ## Week4
 ## Week5

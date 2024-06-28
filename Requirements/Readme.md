@@ -30,7 +30,8 @@ Frame is collection of fixed size bits
 ## UART Block Diagram
 
  UART ==> baud_rate_gen + receiver + transmitter
-
+ 
+ ![3 1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/22d90ec8-1e38-43f1-983f-69a738f65d38)
 
 
 ## UART Simulation
@@ -39,4 +40,9 @@ Frame is collection of fixed size bits
 
 ![2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/80c51204-2ac4-4704-a47c-abfa24867c7c)
 
-In progress
+## UART Synthesis - In progress
+
+![4](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/efa90f2c-9eec-43c3-9159-0d22a260cc65)
+![4_1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/de50d7d8-6b93-46d2-8b1e-c699e26d9bbf)
+![5](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/790528c0-a391-438d-9037-937d90e269c5)
+![6_Synth](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/346c3045-b036-412a-9431-1e0b8e7ca123)

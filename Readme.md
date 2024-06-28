@@ -23,11 +23,12 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week2/Readme.md
 ## Week3
 
  
-  #### UART -- In Progress
+  #### UART -- In Progress 
   ![3 1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/22d90ec8-1e38-43f1-983f-69a738f65d38)
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Requirements/Readme.md
 
+_will revisit previous weeks and update with comments_
 
 ## Week4
 ## Week5

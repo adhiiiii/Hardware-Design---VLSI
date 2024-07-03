@@ -33,6 +33,8 @@ Frame is collection of fixed size bits
  
  ![3 15Mz](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/8c77c8e6-a51f-4a68-9841-d197eb943a5e)
 
+### State Diagram Tx & Rx- In progress
+
 
 ## UART Simulation
 

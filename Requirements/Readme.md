@@ -36,9 +36,11 @@ Frame is collection of fixed size bits
 
 ## UART Simulation
 
-![1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/f133bde3-9a6e-4fa9-a103-bc5d97e7b8df)
-
-![2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/80c51204-2ac4-4704-a47c-abfa24867c7c)
+![36](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2bcf5ef5-60af-4b71-a13e-d807deeed533)
+![37_Initial_State](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/ced5aa40-8a67-4280-a1fb-36809e5c91a8)
+![37_Initial_State2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/7b50ad46-5818-4142-acf3-63e7743fd881)
+![37_Initial_State3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/85fd7a10-f262-40d7-8497-b17227ad40c7)
+![37_Initial_State4](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/3b005d93-a57d-4db0-ae78-f58f7cf602e6)
 
 ## UART Synthesis - In progress
 

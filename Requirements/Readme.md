@@ -30,8 +30,15 @@ Frame is collection of fixed size bits
 ## UART Block Diagram
 
  UART ==> baud_rate_gen + receiver + transmitter
+
+  ```
+Frequency - 5 MHz
+Baud rate - 4800  
+```
  
  ![3 15Mz](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/8c77c8e6-a51f-4a68-9841-d197eb943a5e)
+
+![Baud_rate](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/96cb6858-5736-4a27-abb8-07b3ca888282)
 
 ### State Diagram Tx & Rx- In progress
 

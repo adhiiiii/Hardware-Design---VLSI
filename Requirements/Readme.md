@@ -40,7 +40,7 @@ Frame is collection of fixed size bits
 ![37_Initial_State](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/ced5aa40-8a67-4280-a1fb-36809e5c91a8)
 ![37_Initial_State2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/7b50ad46-5818-4142-acf3-63e7743fd881)
 ![37_Initial_State3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/85fd7a10-f262-40d7-8497-b17227ad40c7)
-![37_Initial_State4](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/3b005d93-a57d-4db0-ae78-f58f7cf602e6)
+
 
 ## UART Synthesis - In progress
 
@@ -80,3 +80,7 @@ write_verilog synth.v
 ![41](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/33adf5eb-6ca3-4239-8371-ef9ea274beb1)
 
 ## RTL simulation Vs Gate Level Simulation (GLS) after synthesis
+
+![37_Initial_State4](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/3b005d93-a57d-4db0-ae78-f58f7cf602e6)
+
+

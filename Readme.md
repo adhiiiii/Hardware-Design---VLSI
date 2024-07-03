@@ -24,12 +24,14 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week2/Readme.md
 
  
   #### UART -- In Progress 
+
+1) High Level Block Diagram of UART Communication
+2) UART Simulation & Synthesis
+3) RTL simulation Vs Gate Level Simulation (GLS) after synthesis
   
   ![3 15Mz](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/8c77c8e6-a51f-4a68-9841-d197eb943a5e)
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Requirements/Readme.md
-
-_will revisit previous weeks and update with comments, uart -in progress_
 
 ## Week4
 ## Week5

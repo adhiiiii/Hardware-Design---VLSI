@@ -76,3 +76,5 @@ write_verilog synth.v
 ![7 1 1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/bf43e7c1-2bf5-45cb-890f-53ede3a4a573)
 ![7 1 2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/97045843-5ee7-4e8a-96b8-6ef01dc09666)
 ![38 3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/332d4b58-8283-4b7f-b454-cfd42aa94a13)
+
+## RTL simulation Vs Gate Level Simulation (GLS) after synthesis

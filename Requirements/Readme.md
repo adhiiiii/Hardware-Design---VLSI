@@ -42,7 +42,7 @@ Frame is collection of fixed size bits
 ![37_Initial_State3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/85fd7a10-f262-40d7-8497-b17227ad40c7)
 
 
-## UART Synthesis - In progress
+## UART Synthesis 
 
 ```
 # read design

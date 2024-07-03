@@ -36,6 +36,8 @@ Frame is collection of fixed size bits
 
 ## UART Simulation
 
+Post Synthesis Simulation Testcases
+
 ![36](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2bcf5ef5-60af-4b71-a13e-d807deeed533)
 ![37_Initial_State](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/ced5aa40-8a67-4280-a1fb-36809e5c91a8)
 ![37_Initial_State2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/7b50ad46-5818-4142-acf3-63e7743fd881)
@@ -75,6 +77,9 @@ write_verilog synth.v
 ![7 1 3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/ae2b5b03-a253-40af-aabc-a22514bc4b14)
 ![7 1 1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/bf43e7c1-2bf5-45cb-890f-53ede3a4a573)
 ![7 1 2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/97045843-5ee7-4e8a-96b8-6ef01dc09666)
+
+Stats
+
 ![40](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/0b105b04-bda4-4bce-b3c8-612b0a09de52)
 ![38 3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/332d4b58-8283-4b7f-b454-cfd42aa94a13)
 ![41](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/33adf5eb-6ca3-4239-8371-ef9ea274beb1)

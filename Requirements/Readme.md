@@ -81,6 +81,17 @@ write_verilog synth.v
 
 ## RTL simulation Vs Gate Level Simulation (GLS) after synthesis
 
+```
+The below simulation generated for pre and post synthesis shows RTL simulation and Gate level Simulation
+are functionally same
+```
+
+Pre Synthesis Simulation
+
 ![37_Initial_State4](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/3b005d93-a57d-4db0-ae78-f58f7cf602e6)
+
+Post Synthesis Simulation
+
+![Post Synth simulation](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/44e574b8-1092-40db-ae12-0ba3d0c8b588)
 
 

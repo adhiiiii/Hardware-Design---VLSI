@@ -44,8 +44,26 @@ Frame is collection of fixed size bits
 
 ## UART Synthesis - In progress
 
-![4](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/efa90f2c-9eec-43c3-9159-0d22a260cc65)
-![4_1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/de50d7d8-6b93-46d2-8b1e-c699e26d9bbf)
-![5](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/790528c0-a391-438d-9037-937d90e269c5)
-![6_Synth](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/346c3045-b036-412a-9431-1e0b8e7ca123)
-![7](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/55b9c509-defd-4b1f-87c6-7a275f8b9a33)
+```
+# read design
+read_verilog mydesign.v
+
+# the high-level stuff
+proc; opt; fsm; opt; memory; opt
+
+# mapping to internal cell library
+techmap; opt
+
+# mapping flip-flops to mycells.lib
+dfflibmap -liberty mycells.lib
+
+# mapping logic to mycells.lib
+abc -liberty mycells.lib
+
+# cleanup
+clean
+# write synthesized design
+write_verilog synth.v
+
+``` 
+

@@ -67,3 +67,8 @@ write_verilog synth.v
 
 ``` 
 
+
+![38 1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/5d55f9b4-9f90-47b3-9d0f-a0c9df1f1097)
+![7 1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/ba42cb5c-93a9-4404-82ad-b7ca5143d9eb)
+![38 2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/6f0ae3b3-90ca-4e6d-83d8-f0d5d27f0a39)
+![38 3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/332d4b58-8283-4b7f-b454-cfd42aa94a13)

@@ -89,6 +89,7 @@ Netlist - Module level
 
 ![7 1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/ba42cb5c-93a9-4404-82ad-b7ca5143d9eb)
 ![38 2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/6f0ae3b3-90ca-4e6d-83d8-f0d5d27f0a39)
+![Baud_rate_netlist](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/b8e13db0-c701-405e-a14d-a6aab397308f)
 ![39](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2d268e98-d683-49fd-9a11-df3eda1c652e)
 
 ```

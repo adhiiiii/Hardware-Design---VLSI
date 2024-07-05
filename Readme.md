@@ -24,6 +24,8 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week2/Readme.md
 
  
   #### UART -- In Progress 
+  
+![Frame](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/677fb830-a17a-4ca3-bbad-9fbf33547279)
 
 1) High Level Block Diagram of UART Communication
 2) UART Simulation & Synthesis

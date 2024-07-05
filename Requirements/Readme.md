@@ -41,8 +41,9 @@ Baud rate - 4800
 
 ![Baud_rate](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/96cb6858-5736-4a27-abb8-07b3ca888282)
 
-### State Diagram Tx & Rx- In progress
+### State Diagram 
 
+![6](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/39919572-291b-4e24-932e-dd1ed5a96f96)
 
 ## UART Simulation
 

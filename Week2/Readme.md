@@ -2,7 +2,7 @@
 # Week 2 
 ## 1) Combinational Logic Optimizations
 
-a) Optimization - _opt_check4.v_
+``` a) Optimization - _opt_check4.v_ ```
 
 ![25_opt_check4](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/fde992c9-004b-47b0-b788-4daa4de8c733)
 ![26](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/e483133a-fe28-4042-8a39-d20d02b7afcb)
@@ -10,7 +10,7 @@ a) Optimization - _opt_check4.v_
 ![28](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/aa785eba-c7fb-4c43-b835-330f930eb62f)
 ![29](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/5731e8ca-d601-4f71-bb63-7a3a036cd702)
 
-b) Optimization - _multiple_module_opt.v_ 
+``` b) Optimization - _multiple_module_opt.v_  ```
 
 ![30_mupltiple_opt](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/edcd3ee4-950a-4547-aab9-c9401468e7b4)
 ![31](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/25d47106-84fc-40ed-8ecb-aa2ac69041b7)
@@ -21,7 +21,7 @@ b) Optimization - _multiple_module_opt.v_
 ![36](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2b5ddff0-be1c-451f-834b-5e2b86b9d963)
 ![37](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/f0cf5d17-0bd1-44de-a4b2-4d7b2d31dd6a)
 
-c) Optimization - _multiple_module_opt2.v_
+``` c) Optimization - _multiple_module_opt2.v_ ```
 
 ![38_multiple_opt2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/eba12f72-b559-47fc-bce9-92e4d99b55bf)
 ![39](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/c6270ce7-903c-4164-8b64-c129f92da1f8)
@@ -34,7 +34,7 @@ c) Optimization - _multiple_module_opt2.v_
 
 ## 2) Sequential Logic Optimizations
 
-a) Synthesis and Optimization - _dff_const1_
+``` a) Synthesis and Optimization - _dff_const1_ ```
 
 ![1_dff_const1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/e8b08611-e624-485a-a3e4-1e56b225ea67)
 ![2_TB_output](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/453611b1-8ec6-4167-aaaf-7a4bbf593ef5)
@@ -46,7 +46,7 @@ a) Synthesis and Optimization - _dff_const1_
 ![8](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/687be900-6340-4adb-b1aa-49dafba63d7e)
 ![9](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/bbbefeb5-d000-4fd1-9ce8-d7e54326bb2c)
 
-b) Synthesis and Optimization - _dff_const2_
+``` b) Synthesis and Optimization - _dff_const2_ ```
 
 ![10_dff_const2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/0307e442-fba4-4000-a76b-8a0a10993299)
 ![11](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2d80fba3-2f53-43b7-87ac-830db5958ffb)
@@ -54,7 +54,7 @@ b) Synthesis and Optimization - _dff_const2_
 ![13](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/64f1fc1e-1b7e-4f0a-99ac-1473a992b17b)
 ![14](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/afd22e57-bc8e-41ed-9d42-725d8836e002)
 
-c) Synthesis and Optimization - _dff_const3_
+``` c) Synthesis and Optimization - _dff_const3_ ```
 
 ![15_const3_verilog](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/16d95e40-2993-42d5-bb29-d07a64796ee6)
 ![15_diff_const3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/17a10d26-be88-48cc-b7d1-178201b69715)
@@ -63,7 +63,7 @@ c) Synthesis and Optimization - _dff_const3_
 ![18](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/8b87b648-802d-40f8-82f2-73e5458bc4fe)
 
 
-d) Synthesis and Optimization - _dff_const4_
+``` d) Synthesis and Optimization - _dff_const4_ ```
 
 ![19_diff_const4](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/f56d6e87-e7dd-480f-b9e2-a6777e4bc074)
 ![19_diff_const4_verilog](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/63247761-9771-488f-9e08-358b60c923c2)
@@ -72,14 +72,14 @@ d) Synthesis and Optimization - _dff_const4_
 ![22](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2d924f57-c3c8-480d-9b97-45f3d01b357e)
 ![23](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/7b335914-7548-4ce2-aea4-0997d425a676)
 
-e) Synthesis and Optimization - _dff_const5_
+``` e) Synthesis and Optimization - _dff_const5_ ```
 
 ![24 1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/26c5bdc9-5c42-4726-bb5d-81e0a7468e17)
 ![24](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/d93d6c64-aac8-46ef-88bf-72028053c062)
 ![25](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2c9f62a4-3887-4f95-ab34-e9bc4874e861)
 ![26](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/b07a6b25-7dd9-403c-b329-811ef386b7f0)
 
-f) Sequential - Counter - Unused optimization
+``` f) Sequential - Counter - Unused optimization ```
 
 ![1_simulation](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/b0a0c01a-dfd1-42bb-89fd-d58f74c7c571)
 ![2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/74cc73bd-430b-4eb7-8b96-8acc1e266688)
@@ -87,7 +87,7 @@ f) Sequential - Counter - Unused optimization
 ![4_synth](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/dd5541d1-da1a-4134-ab6a-a53fccc92df0)
 ![5](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/9ea0da96-5f25-40f5-815a-da7b473f12ff)
 
-g) RTL Vs Gate Level Simulation - Mismatch 
+``` g) RTL Vs Gate Level Simulation - Mismatch ```
 
 ![1_2c1_RTL_SImulation](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/d645043e-5e91-4934-af9b-01f34c92780f)
 ![1_Vernary_op](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/b1f1d8ca-a07b-4b71-a49e-8a704e255741)
@@ -101,7 +101,7 @@ g) RTL Vs Gate Level Simulation - Mismatch
 ![10](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/05006c15-7e0a-4bd0-85e0-5d211ac8d816)
 ![11](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/9ebd2f93-b64c-43ae-80c3-2ca4054aa52b)
 
-h) RTL Vs Gatelevel Simulation - Blocking Statement Mismatch
+``` h) RTL Vs Gatelevel Simulation - Blocking Statement Mismatch ```
 
 Below Simulation shows out D as 'high', expected output as per combinational logic is 'low'
 

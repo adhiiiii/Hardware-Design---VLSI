@@ -93,7 +93,7 @@ Netlist - Module level
 
 ```
 
-Netlist - Gate level
+Netlist - Gate level - Sky130 Specific libraries
 
 ```
 

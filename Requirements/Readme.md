@@ -25,7 +25,8 @@ Frame is collection of fixed size bits
 2) Optinal parity bit - 5 to 9 bits // here we are not adding parity bit
 3) Data bits  - 1 bit
 
-![3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2e9baf11-257f-4162-9d4f-4b95c6009ca3)
+![Frame](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/40dd5dbd-a28f-454a-9ba7-43a3038edf5a)
+
 
 ## UART Block Diagram
 

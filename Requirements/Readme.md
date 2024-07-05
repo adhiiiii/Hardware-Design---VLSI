@@ -81,14 +81,31 @@ write_verilog synth.v
 
 
 ![38 1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/5d55f9b4-9f90-47b3-9d0f-a0c9df1f1097)
+
+```
+Netlist - Module level
+
+```
+
 ![7 1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/ba42cb5c-93a9-4404-82ad-b7ca5143d9eb)
 ![38 2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/6f0ae3b3-90ca-4e6d-83d8-f0d5d27f0a39)
 ![39](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2d268e98-d683-49fd-9a11-df3eda1c652e)
+
+```
+
+Netlist - Gate level
+
+```
+
 ![7 1 3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/ae2b5b03-a253-40af-aabc-a22514bc4b14)
 ![7 1 1](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/bf43e7c1-2bf5-45cb-890f-53ede3a4a573)
 ![7 1 2](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/97045843-5ee7-4e8a-96b8-6ef01dc09666)
 
+```
+
 Stats - Write Synth
+
+```
 
 ![40](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/0b105b04-bda4-4bce-b3c8-612b0a09de52)
 ![38 3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/332d4b58-8283-4b7f-b454-cfd42aa94a13)

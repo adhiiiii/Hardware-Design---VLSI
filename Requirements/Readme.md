@@ -125,6 +125,7 @@ Pre Synthesis Simulation
 
 Post Synthesis Simulation
 
-![Post Synth simulation](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/44e574b8-1092-40db-ae12-0ba3d0c8b588)
+![post_Synth](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/7be4f6ef-1511-41dd-92bb-b7b56df1c8d3)
+
 
 

@@ -35,8 +35,8 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week2/Readme.md
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Requirements/Readme.md
 
-## Week4
-## Week5
-## Week6 ..
+## Week-4
+## Week-5
+## Week-6 ..
 
 ### _References_

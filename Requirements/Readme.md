@@ -21,9 +21,9 @@ here planning only simplex,which can be extended to other modes,
 
 Frame is collection of fixed size bits
 
-1) Start and stop bits -  1 each bit (stop bit/s can be either 1 or 2 bits)
-2) Optinal parity bit - 5 to 9 bits // here we are not adding parity bit
-3) Data bits  - 1 bit
+1) Start and Stop bits -  1 each bit (stop bit/s can be either 1 or 2 bits)
+2) Optinal parity bit - 1 (or zero) // here we are not adding parity bit
+3) Data - 8 bits (5 to 9 Data bits) 
 
 ![Frame](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/40dd5dbd-a28f-454a-9ba7-43a3038edf5a)
 

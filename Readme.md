@@ -36,6 +36,10 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week2/Readme.md
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Requirements/Readme.md
 
 ## Week-4 - In progress
+
+1) OpenSTA..
+
+
 ## Week-5
 ## Week-6 ..
 

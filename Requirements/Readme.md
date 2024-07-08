@@ -47,7 +47,7 @@ Baud rate - 4800
 
 ## UART Simulation
 
-Post Synthesis Simulation Testcases
+Pre Synthesis Simulation Testcases
 
 ![36](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/2bcf5ef5-60af-4b71-a13e-d807deeed533)
 ![37_Initial_State](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/ced5aa40-8a67-4280-a1fb-36809e5c91a8)

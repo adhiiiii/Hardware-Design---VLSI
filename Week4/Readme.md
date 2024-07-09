@@ -23,15 +23,16 @@
 
 ``` STA execution for sky130 lib - ss - sky130_fd_sc_hd__slow.lib ```
 
-![7](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/77c52138-d112-415c-9edf-3d9dae6d72c5)
-
-``` STA execution for sky130 lib - tt - sky130_fd_sc_hd__typical.lib ```
 
 ![8](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/b1292794-72b5-4dd8-bcab-ca87fcaa7fcd)
 
-``` STA execution for sky130 lib - ff - sky130_fd_sc_hd__fast.lib ```
+
+``` STA execution for sky130 lib - tt - sky130_fd_sc_hd__typical.lib ```
 
 ![9](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/c800b3a8-fe7b-4f03-af92-afb4eea8f16f)
- 
+
+``` STA execution for sky130 lib - ff - sky130_fd_sc_hd__fast.lib ```
+
+ ![7](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/77c52138-d112-415c-9edf-3d9dae6d72c5)
 
 

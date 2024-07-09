@@ -1,5 +1,6 @@
 # Week 4
 
+
 ```OpenSTA```
 
 ![11](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/d81cb47c-ee9d-4b86-bd13-28d88388b69f)
@@ -12,6 +13,10 @@
 
 ![3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/da3ed21a-2990-4e44-b9f5-b0dbaf3403b8)
 
-In Progress..
+ ## UART Synth - STA specific to SKY130
+
+ ``` tcl file - configuration ```
+
+ 
 
 

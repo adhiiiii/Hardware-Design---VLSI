@@ -1,6 +1,6 @@
 # Week 4
 
-## STA Example Test run
+## STA - Test run
 
 ```OpenSTA```
 

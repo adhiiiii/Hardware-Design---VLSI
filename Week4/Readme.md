@@ -19,6 +19,7 @@
  ``` 'tcl' file - configuration ```
  
 ![6](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/24260f71-cb1a-4a7b-96c7-c721be76fa36)
+![10](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/c92fd683-2c96-4c7d-879f-107709a7f098) 
 
 ``` STA execution for sky130 lib - ss - sky130_fd_sc_hd__slow.lib ```
 

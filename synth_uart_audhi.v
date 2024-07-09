@@ -2,8 +2,6 @@
 // https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Readme.md 
 // Audhivishnu K
 module uart(din, wr_en, clk_5m, tx, tx_busy, rx, rdy, rdy_clr, dout);
-  wire _071_;
-  wire _072_;
   wire _073_;
   wire _074_;
   wire _075_;
@@ -142,91 +140,6 @@ module uart(din, wr_en, clk_5m, tx, tx_busy, rx, rdy, rdy_clr, dout);
   wire _208_;
   wire _209_;
   wire _210_;
-  wire _211_;
-  wire _212_;
-  wire _213_;
-  wire _214_;
-  wire _215_;
-  wire _216_;
-  wire _217_;
-  wire _218_;
-  wire _219_;
-  wire _220_;
-  wire _221_;
-  wire _222_;
-  wire _223_;
-  wire _224_;
-  wire _225_;
-  wire _226_;
-  wire _227_;
-  wire _228_;
-  wire _229_;
-  wire _230_;
-  wire _231_;
-  wire _232_;
-  wire _233_;
-  wire _234_;
-  wire _235_;
-  wire _236_;
-  wire _237_;
-  wire _238_;
-  wire _239_;
-  wire _240_;
-  wire _241_;
-  wire _242_;
-  wire _243_;
-  wire _244_;
-  wire _245_;
-  wire _246_;
-  wire _247_;
-  wire _248_;
-  wire _249_;
-  wire _250_;
-  wire _251_;
-  wire _252_;
-  wire _253_;
-  wire _254_;
-  wire _255_;
-  wire _256_;
-  wire _257_;
-  wire _258_;
-  wire _259_;
-  wire _260_;
-  wire _261_;
-  wire _262_;
-  wire _263_;
-  wire _264_;
-  wire _265_;
-  wire _266_;
-  wire _267_;
-  wire _268_;
-  wire _269_;
-  wire _270_;
-  wire _271_;
-  wire _272_;
-  wire _273_;
-  wire _274_;
-  wire _275_;
-  wire _276_;
-  wire _277_;
-  wire _278_;
-  wire _279_;
-  wire _280_;
-  wire _281_;
-  wire _282_;
-  wire _283_;
-  wire _284_;
-  wire _285_;
-  wire _286_;
-  wire _287_;
-  wire _288_;
-  wire _289_;
-  wire _290_;
-  wire _291_;
-  wire _292_;
-  wire _293_;
-  wire _294_;
-  wire _295_;
   wire [6:0] _000_;
   wire [10:0] _001_;
   wire _004_;
@@ -241,6 +154,8 @@ module uart(din, wr_en, clk_5m, tx, tx_busy, rx, rdy, rdy_clr, dout);
   wire _068_;
   wire _069_;
   wire _070_;
+  wire _071_;
+  wire _072_;
   wire [15:0] \_131_$func$synth_uart_audhi.v:557$181.b ;
   wire [1:0] \_131_$func$synth_uart_audhi.v:557$181.s ;
   wire [7:0] \_133_$func$synth_uart_audhi.v:572$182.b ;
@@ -276,470 +191,1408 @@ module uart(din, wr_en, clk_5m, tx, tx_busy, rx, rdy, rdy_clr, dout);
   output tx_busy;
   wire tx_busy;
   wire \uart_baud.clk_5m ;
-  reg [6:0] \uart_baud.rx_acc  = 7'h00;
-  reg [10:0] \uart_baud.tx_acc  = 11'h000;
-  reg [3:0] \uart_rx.bitpos  = 4'h0;
+  wire [6:0] \uart_baud.rx_acc ;
+  wire [10:0] \uart_baud.tx_acc ;
+  wire [3:0] \uart_rx.bitpos ;
   wire \uart_rx.clk_5m ;
-  reg [7:0] \uart_rx.data  = 8'h00;
-  reg \uart_rx.rdy  = 1'h0;
+  wire [7:0] \uart_rx.data ;
+  wire \uart_rx.rdy ;
   wire \uart_rx.rdy_clr ;
   wire \uart_rx.rx ;
-  reg [3:0] \uart_rx.sample  = 4'h0;
-  reg [7:0] \uart_rx.scratch  = 8'h00;
-  reg [1:0] \uart_rx.state  = 2'h0;
-  reg [2:0] \uart_tx.bitpos  = 3'h0;
+  wire [3:0] \uart_rx.sample ;
+  wire [7:0] \uart_rx.scratch ;
+  wire [1:0] \uart_rx.state ;
+  wire [2:0] \uart_tx.bitpos ;
   wire \uart_tx.clk_5m ;
-  reg [7:0] \uart_tx.data  = 8'h00;
+  wire [7:0] \uart_tx.data ;
   wire [7:0] \uart_tx.din ;
-  reg [1:0] \uart_tx.state  = 2'h0;
-  reg \uart_tx.tx  = 1'h1;
+  wire [1:0] \uart_tx.state ;
+  wire \uart_tx.tx ;
   wire \uart_tx.tx_busy ;
   wire \uart_tx.wr_en ;
   input wr_en;
   wire wr_en;
-  assign _000_[0] = ~\uart_baud.rx_acc [0];
-  assign _057_[0] = ~\uart_tx.bitpos [0];
-  assign _009_[0] = ~\uart_rx.bitpos [0];
-  assign _073_ = ~(\uart_tx.state [0] | \uart_tx.state [1]);
-  assign tx_busy = ~_073_;
-  assign _067_ = _073_ & wr_en;
-  assign _074_ = ~(\uart_baud.tx_acc [0] | \uart_baud.tx_acc [1]);
-  assign _075_ = \uart_baud.tx_acc [3] | \uart_baud.tx_acc [2];
-  assign _076_ = _074_ & ~(_075_);
-  assign _077_ = \uart_baud.tx_acc [4] | \uart_baud.tx_acc [5];
-  assign _078_ = \uart_baud.tx_acc [7] | \uart_baud.tx_acc [6];
-  assign _079_ = _078_ | _077_;
-  assign _080_ = _076_ & ~(_079_);
-  assign _081_ = \uart_baud.tx_acc [9] | \uart_baud.tx_acc [8];
-  assign _082_ = _081_ | \uart_baud.tx_acc [10];
-  assign _083_ = _082_ | ~(_080_);
-  assign _084_ = ~(\uart_tx.state [0] & \uart_tx.state [1]);
-  assign _085_ = _083_ & ~(_084_);
-  assign _086_ = \uart_tx.state [1] & ~(\uart_tx.state [0]);
-  assign _087_ = ~_086_;
-  assign _088_ = _087_ | ~(_083_);
-  assign _089_ = _088_ & ~(_085_);
-  assign _090_ = \uart_tx.state [1] | ~(\uart_tx.state [0]);
-  assign _091_ = _083_ & ~(_090_);
-  assign _092_ = _080_ & ~(_082_);
-  assign _093_ = ~\uart_tx.bitpos [2];
-  assign _094_ = ~(\uart_tx.bitpos [1] & \uart_tx.bitpos [0]);
-  assign _095_ = _094_ | _093_;
-  assign _096_ = ~(_095_ & _092_);
-  assign _097_ = _086_ & ~(_096_);
-  assign _098_ = _097_ | _091_;
-  assign _099_ = _089_ & ~(_098_);
-  assign _100_ = _073_ & ~(wr_en);
-  assign _101_ = _084_ & ~(_073_);
-  assign _102_ = _086_ | ~(_090_);
-  assign _103_ = _101_ & ~(_102_);
-  assign _104_ = _103_ | _100_;
-  assign _068_ = _099_ & ~(_104_);
-  assign _105_ = _088_ & ~(_100_);
-  assign _106_ = _092_ & ~(_095_);
-  assign _107_ = _086_ ? _106_ : tx_busy;
-  assign _069_ = _105_ & ~(_107_);
-  assign _108_ = _084_ & ~(_086_);
-  assign _109_ = _090_ ? _108_ : _083_;
-  assign _070_ = _089_ & ~(_109_);
-  assign _110_ = \uart_baud.rx_acc [1] | ~(\uart_baud.rx_acc [0]);
-  assign _111_ = \uart_baud.rx_acc [3] | \uart_baud.rx_acc [2];
-  assign _112_ = _111_ | _110_;
-  assign _113_ = \uart_baud.rx_acc [5] | \uart_baud.rx_acc [4];
-  assign _114_ = _113_ | ~(\uart_baud.rx_acc [6]);
-  assign _071_ = _114_ | _112_;
-  assign _001_[0] = ~\uart_baud.tx_acc [0];
-  assign _115_ = \uart_baud.tx_acc [1] | ~(\uart_baud.tx_acc [0]);
-  assign _116_ = _115_ | _075_;
-  assign _117_ = \uart_baud.tx_acc [5] | ~(\uart_baud.tx_acc [4]);
-  assign _118_ = _117_ | _078_;
-  assign _119_ = _118_ | _116_;
-  assign _120_ = _081_ | ~(\uart_baud.tx_acc [10]);
-  assign _072_ = _120_ | _119_;
-  assign \_140_$func$synth_uart_audhi.v:609$177.$result [0] = ~(\uart_rx.state [1] | \uart_rx.state [0]);
-  assign _121_ = \uart_rx.sample [1] | \uart_rx.sample [0];
-  assign _122_ = \uart_rx.sample [3] & ~(\uart_rx.sample [2]);
-  assign _123_ = _122_ & ~(_121_);
-  assign \_140_$func$synth_uart_audhi.v:609$177.$result [1] = \uart_rx.state [0] & ~(\uart_rx.state [1]);
-  assign _124_ = \_140_$func$synth_uart_audhi.v:609$177.$result [1] & ~(_123_);
-  assign _125_ = \uart_rx.sample [1] & \uart_rx.sample [0];
-  assign _126_ = ~(\uart_rx.sample [2] & \uart_rx.sample [3]);
-  assign _127_ = _125_ & ~(_126_);
-  assign _128_ = _127_ | ~(\_140_$func$synth_uart_audhi.v:609$177.$result [0]);
-  assign _129_ = _128_ & ~(_124_);
-  assign _130_ = ~(\_140_$func$synth_uart_audhi.v:609$177.$result [1] | \_140_$func$synth_uart_audhi.v:609$177.$result [0]);
-  assign _131_ = \uart_baud.rx_acc [1] | \uart_baud.rx_acc [0];
-  assign _132_ = _131_ | _111_;
-  assign _133_ = _113_ | \uart_baud.rx_acc [6];
-  assign _134_ = _133_ | _132_;
-  assign _135_ = _134_ | _130_;
-  assign _018_ = _129_ & ~(_135_);
-  assign _136_ = ~_134_;
-  assign _137_ = ~rx;
-  assign _138_ = ~\uart_rx.sample [3];
-  assign _139_ = _138_ & ~(_123_);
-  assign _140_ = _137_ & ~(_139_);
-  assign _141_ = ~(_140_ | _127_);
-  assign _142_ = \uart_rx.state [0] | ~(\uart_rx.state [1]);
-  assign _143_ = _142_ | _141_;
-  assign _019_ = _136_ & ~(_143_);
-  assign _144_ = ~(\uart_rx.bitpos [1] | \uart_rx.bitpos [0]);
-  assign _145_ = \uart_rx.bitpos [3] & ~(\uart_rx.bitpos [2]);
-  assign _146_ = ~(_145_ & _144_);
-  assign _147_ = _127_ & ~(_146_);
-  assign _148_ = \_140_$func$synth_uart_audhi.v:609$177.$result [1] & ~(_147_);
-  assign _149_ = _128_ & ~(_148_);
-  assign _150_ = _141_ & ~(_142_);
-  assign _151_ = _150_ | _134_;
-  assign _020_ = _149_ & ~(_151_);
-  assign _152_ = \uart_rx.sample [2] | \uart_rx.sample [3];
-  assign _153_ = _152_ | _121_;
-  assign _154_ = _153_ | _137_;
-  assign _155_ = _154_ | _127_;
-  assign _156_ = \_140_$func$synth_uart_audhi.v:609$177.$result [0] & ~(_155_);
-  assign _157_ = \uart_rx.state [1] & \uart_rx.state [0];
-  assign _158_ = _157_ | _156_;
-  assign _021_ = _136_ & ~(_158_);
-  assign _159_ = _141_ & ~(\uart_rx.sample [0]);
-  assign _160_ = _127_ | \uart_rx.sample [0];
-  assign _161_ = \_140_$func$synth_uart_audhi.v:609$177.$result [0] & ~(_160_);
-  assign _162_ = \_140_$func$synth_uart_audhi.v:609$177.$result [1] & ~(\uart_rx.sample [0]);
-  assign _163_ = _162_ | _161_;
-  assign \_136_$func$synth_uart_audhi.v:590$176.$result [0] = _130_ ? _159_ : _163_;
-  assign _164_ = ~(\uart_rx.sample [1] ^ \uart_rx.sample [0]);
-  assign _165_ = _141_ & ~(_164_);
-  assign _166_ = _164_ | _127_;
-  assign _167_ = \_140_$func$synth_uart_audhi.v:609$177.$result [0] & ~(_166_);
-  assign _168_ = \_140_$func$synth_uart_audhi.v:609$177.$result [1] & ~(_164_);
-  assign _169_ = _168_ | _167_;
-  assign \_136_$func$synth_uart_audhi.v:590$176.$result [1] = _130_ ? _165_ : _169_;
-  assign _170_ = ~(_125_ ^ \uart_rx.sample [2]);
-  assign _171_ = _141_ & ~(_170_);
-  assign _172_ = _170_ | _127_;
-  assign _173_ = \_140_$func$synth_uart_audhi.v:609$177.$result [0] & ~(_172_);
-  assign _174_ = \_140_$func$synth_uart_audhi.v:609$177.$result [1] & ~(_170_);
-  assign _175_ = _174_ | _173_;
-  assign \_136_$func$synth_uart_audhi.v:590$176.$result [2] = _130_ ? _171_ : _175_;
-  assign _176_ = _125_ & \uart_rx.sample [2];
-  assign _177_ = _176_ ^ _138_;
-  assign _178_ = _141_ & ~(_177_);
-  assign _179_ = _177_ | _127_;
-  assign _180_ = \_140_$func$synth_uart_audhi.v:609$177.$result [0] & ~(_179_);
-  assign _181_ = \_140_$func$synth_uart_audhi.v:609$177.$result [1] & ~(_177_);
-  assign _182_ = _181_ | _180_;
-  assign \_136_$func$synth_uart_audhi.v:590$176.$result [3] = _130_ ? _178_ : _182_;
-  assign _183_ = \uart_tx.bitpos [0] ? \uart_tx.data [1] : \uart_tx.data [0];
-  assign _184_ = \uart_tx.bitpos [0] ? \uart_tx.data [3] : \uart_tx.data [2];
-  assign _185_ = \uart_tx.bitpos [1] ? _184_ : _183_;
-  assign _186_ = \uart_tx.bitpos [0] ? \uart_tx.data [5] : \uart_tx.data [4];
-  assign _187_ = \uart_tx.bitpos [0] ? \uart_tx.data [7] : \uart_tx.data [6];
-  assign _188_ = \uart_tx.bitpos [1] ? _187_ : _186_;
-  assign _189_ = \uart_tx.bitpos [2] ? _188_ : _185_;
-  assign \_174_$func$synth_uart_audhi.v:662$178.$result  = _086_ ? _189_ : _090_;
-  assign \_182_$func$synth_uart_audhi.v:700$180.$result [0] = _086_ | _073_;
-  assign \_182_$func$synth_uart_audhi.v:700$180.$result [1] = \uart_tx.state [0] ^ \uart_tx.state [1];
-  assign _190_ = \uart_rx.rdy  & ~(rdy_clr);
-  assign _191_ = _190_ | ~(_141_);
-  assign _192_ = _142_ ? _190_ : _191_;
-  assign _004_ = _134_ ? _190_ : _192_;
-  assign _193_ = ~(\uart_rx.bitpos [1] ^ \uart_rx.bitpos [0]);
-  assign _009_[1] = ~_193_;
-  assign _194_ = \uart_rx.bitpos [1] & \uart_rx.bitpos [0];
-  assign _009_[2] = _194_ ^ \uart_rx.bitpos [2];
-  assign _195_ = ~\uart_rx.bitpos [2];
-  assign _196_ = _194_ & ~(_195_);
-  assign _009_[3] = _196_ ^ \uart_rx.bitpos [3];
-  assign _001_[1] = \uart_baud.tx_acc [0] ^ \uart_baud.tx_acc [1];
-  assign _197_ = \uart_baud.tx_acc [0] & \uart_baud.tx_acc [1];
-  assign _001_[2] = _197_ ^ \uart_baud.tx_acc [2];
-  assign _198_ = _197_ & \uart_baud.tx_acc [2];
-  assign _001_[3] = _198_ ^ \uart_baud.tx_acc [3];
-  assign _199_ = ~(\uart_baud.tx_acc [3] & \uart_baud.tx_acc [2]);
-  assign _200_ = _197_ & ~(_199_);
-  assign _001_[4] = _200_ ^ \uart_baud.tx_acc [4];
-  assign _201_ = _200_ & \uart_baud.tx_acc [4];
-  assign _001_[5] = _201_ ^ \uart_baud.tx_acc [5];
-  assign _202_ = ~(\uart_baud.tx_acc [4] & \uart_baud.tx_acc [5]);
-  assign _203_ = _202_ | ~(_200_);
-  assign _001_[6] = ~(_203_ ^ \uart_baud.tx_acc [6]);
-  assign _204_ = \uart_baud.tx_acc [6] & ~(_203_);
-  assign _001_[7] = _204_ ^ \uart_baud.tx_acc [7];
-  assign _205_ = ~(\uart_baud.tx_acc [7] & \uart_baud.tx_acc [6]);
-  assign _206_ = _205_ | _202_;
-  assign _207_ = _200_ & ~(_206_);
-  assign _001_[8] = _207_ ^ \uart_baud.tx_acc [8];
-  assign _208_ = _207_ & \uart_baud.tx_acc [8];
-  assign _001_[9] = _208_ ^ \uart_baud.tx_acc [9];
-  assign _209_ = ~(\uart_baud.tx_acc [9] & \uart_baud.tx_acc [8]);
-  assign _210_ = _207_ & ~(_209_);
-  assign _001_[10] = _210_ ^ \uart_baud.tx_acc [10];
-  assign _057_[1] = \uart_tx.bitpos [1] ^ \uart_tx.bitpos [0];
-  assign _057_[2] = _094_ ^ _093_;
-  assign _000_[1] = \uart_baud.rx_acc [1] ^ \uart_baud.rx_acc [0];
-  assign _211_ = \uart_baud.rx_acc [1] & \uart_baud.rx_acc [0];
-  assign _000_[2] = _211_ ^ \uart_baud.rx_acc [2];
-  assign _212_ = _211_ & \uart_baud.rx_acc [2];
-  assign _000_[3] = _212_ ^ \uart_baud.rx_acc [3];
-  assign _213_ = ~(\uart_baud.rx_acc [3] & \uart_baud.rx_acc [2]);
-  assign _214_ = _211_ & ~(_213_);
-  assign _000_[4] = _214_ ^ \uart_baud.rx_acc [4];
-  assign _215_ = _214_ & \uart_baud.rx_acc [4];
-  assign _000_[5] = _215_ ^ \uart_baud.rx_acc [5];
-  assign _216_ = ~(\uart_baud.rx_acc [5] & \uart_baud.rx_acc [4]);
-  assign _217_ = _214_ & ~(_216_);
-  assign _000_[6] = _217_ ^ \uart_baud.rx_acc [6];
-  assign _218_ = \uart_rx.bitpos [1] | \uart_rx.bitpos [0];
-  assign _219_ = _144_ ^ _195_;
-  assign _220_ = _144_ ^ _219_;
-  assign _221_ = _220_ & ~(_218_);
-  assign _222_ = ~(_144_ & _195_);
-  assign _223_ = _144_ & ~(_219_);
-  assign _224_ = ~(_223_ ^ _222_);
-  assign _225_ = _221_ & ~(_224_);
-  assign _226_ = _219_ | _009_[1];
-  assign _227_ = _226_ | _222_;
-  assign _228_ = _009_[0] & ~(_227_);
-  assign _229_ = _222_ ? _225_ : _228_;
-  assign _230_ = \uart_rx.scratch [0] & ~(_229_);
-  assign _231_ = _193_ ^ \uart_rx.bitpos [0];
-  assign _232_ = \uart_rx.bitpos [0] | ~(rx);
-  assign _233_ = _232_ | ~(_231_);
-  assign _234_ = _220_ & ~(_233_);
-  assign _235_ = _234_ & ~(_224_);
-  assign _236_ = _227_ | _137_;
-  assign _237_ = _009_[0] & ~(_236_);
-  assign _238_ = _222_ ? _235_ : _237_;
-  assign _007_[0] = _238_ | _230_;
-  assign _239_ = ~(_144_ ^ _219_);
-  assign _240_ = \uart_rx.bitpos [1] | ~(\uart_rx.bitpos [0]);
-  assign _241_ = _240_ | _239_;
-  assign _242_ = _241_ | _224_;
-  assign _243_ = _222_ & ~(_242_);
-  assign _244_ = \uart_rx.scratch [1] & ~(_243_);
-  assign _245_ = ~(rx & \uart_rx.bitpos [0]);
-  assign _246_ = _245_ | ~(_231_);
-  assign _247_ = _246_ | _239_;
-  assign _248_ = _247_ | _224_;
-  assign _249_ = _222_ & ~(_248_);
-  assign _007_[1] = _249_ | _244_;
-  assign _250_ = \uart_rx.bitpos [0] | ~(\uart_rx.bitpos [1]);
-  assign _251_ = _250_ | _239_;
-  assign _252_ = _251_ | _224_;
-  assign _253_ = _222_ & ~(_252_);
-  assign _254_ = \uart_rx.scratch [2] & ~(_253_);
-  assign _255_ = _232_ | _231_;
-  assign _256_ = _255_ | _239_;
-  assign _257_ = _256_ | _224_;
-  assign _258_ = _222_ & ~(_257_);
-  assign _007_[2] = _258_ | _254_;
-  assign _259_ = ~(\uart_rx.bitpos [1] & \uart_rx.bitpos [0]);
-  assign _260_ = _259_ | _239_;
-  assign _261_ = _260_ | _224_;
-  assign _262_ = _222_ & ~(_261_);
-  assign _263_ = \uart_rx.scratch [3] & ~(_262_);
-  assign _264_ = _245_ | _231_;
-  assign _265_ = _264_ | _239_;
-  assign _266_ = _265_ | _224_;
-  assign _267_ = _222_ & ~(_266_);
-  assign _007_[3] = _267_ | _263_;
-  assign _268_ = _220_ | _218_;
-  assign _269_ = _268_ | _224_;
-  assign _270_ = _222_ & ~(_269_);
-  assign _271_ = \uart_rx.scratch [4] & ~(_270_);
-  assign _272_ = _233_ | _220_;
-  assign _273_ = _272_ | _224_;
-  assign _274_ = _222_ & ~(_273_);
-  assign _007_[4] = _274_ | _271_;
-  assign _275_ = _240_ | _220_;
-  assign _276_ = _275_ | _224_;
-  assign _277_ = _222_ & ~(_276_);
-  assign _278_ = \uart_rx.scratch [5] & ~(_277_);
-  assign _279_ = _246_ | _220_;
-  assign _280_ = _279_ | _224_;
-  assign _281_ = _222_ & ~(_280_);
-  assign _007_[5] = _281_ | _278_;
-  assign _282_ = _250_ | _220_;
-  assign _283_ = _282_ | _224_;
-  assign _284_ = _222_ & ~(_283_);
-  assign _285_ = \uart_rx.scratch [6] & ~(_284_);
-  assign _286_ = _255_ | _220_;
-  assign _287_ = _286_ | _224_;
-  assign _288_ = _222_ & ~(_287_);
-  assign _007_[6] = _288_ | _285_;
-  assign _289_ = _259_ | _220_;
-  assign _290_ = _289_ | _224_;
-  assign _291_ = _222_ & ~(_290_);
-  assign _292_ = \uart_rx.scratch [7] & ~(_291_);
-  assign _293_ = _264_ | _220_;
-  assign _294_ = _293_ | _224_;
-  assign _295_ = _222_ & ~(_294_);
-  assign _007_[7] = _295_ | _292_;
-  always @(posedge clk_5m)
-    if (!_072_) \uart_baud.tx_acc [0] <= 1'h0;
-    else \uart_baud.tx_acc [0] <= _001_[0];
-  always @(posedge clk_5m)
-    if (!_072_) \uart_baud.tx_acc [1] <= 1'h0;
-    else \uart_baud.tx_acc [1] <= _001_[1];
-  always @(posedge clk_5m)
-    if (!_072_) \uart_baud.tx_acc [2] <= 1'h0;
-    else \uart_baud.tx_acc [2] <= _001_[2];
-  always @(posedge clk_5m)
-    if (!_072_) \uart_baud.tx_acc [3] <= 1'h0;
-    else \uart_baud.tx_acc [3] <= _001_[3];
-  always @(posedge clk_5m)
-    if (!_072_) \uart_baud.tx_acc [4] <= 1'h0;
-    else \uart_baud.tx_acc [4] <= _001_[4];
-  always @(posedge clk_5m)
-    if (!_072_) \uart_baud.tx_acc [5] <= 1'h0;
-    else \uart_baud.tx_acc [5] <= _001_[5];
-  always @(posedge clk_5m)
-    if (!_072_) \uart_baud.tx_acc [6] <= 1'h0;
-    else \uart_baud.tx_acc [6] <= _001_[6];
-  always @(posedge clk_5m)
-    if (!_072_) \uart_baud.tx_acc [7] <= 1'h0;
-    else \uart_baud.tx_acc [7] <= _001_[7];
-  always @(posedge clk_5m)
-    if (!_072_) \uart_baud.tx_acc [8] <= 1'h0;
-    else \uart_baud.tx_acc [8] <= _001_[8];
-  always @(posedge clk_5m)
-    if (!_072_) \uart_baud.tx_acc [9] <= 1'h0;
-    else \uart_baud.tx_acc [9] <= _001_[9];
-  always @(posedge clk_5m)
-    if (!_072_) \uart_baud.tx_acc [10] <= 1'h0;
-    else \uart_baud.tx_acc [10] <= _001_[10];
-  always @(posedge clk_5m)
-    if (!_071_) \uart_baud.rx_acc [0] <= 1'h0;
-    else \uart_baud.rx_acc [0] <= _000_[0];
-  always @(posedge clk_5m)
-    if (!_071_) \uart_baud.rx_acc [1] <= 1'h0;
-    else \uart_baud.rx_acc [1] <= _000_[1];
-  always @(posedge clk_5m)
-    if (!_071_) \uart_baud.rx_acc [2] <= 1'h0;
-    else \uart_baud.rx_acc [2] <= _000_[2];
-  always @(posedge clk_5m)
-    if (!_071_) \uart_baud.rx_acc [3] <= 1'h0;
-    else \uart_baud.rx_acc [3] <= _000_[3];
-  always @(posedge clk_5m)
-    if (!_071_) \uart_baud.rx_acc [4] <= 1'h0;
-    else \uart_baud.rx_acc [4] <= _000_[4];
-  always @(posedge clk_5m)
-    if (!_071_) \uart_baud.rx_acc [5] <= 1'h0;
-    else \uart_baud.rx_acc [5] <= _000_[5];
-  always @(posedge clk_5m)
-    if (!_071_) \uart_baud.rx_acc [6] <= 1'h0;
-    else \uart_baud.rx_acc [6] <= _000_[6];
-  always @(posedge clk_5m)
-    if (_019_) \uart_rx.data [0] <= \uart_rx.scratch [0];
-  always @(posedge clk_5m)
-    if (_019_) \uart_rx.data [1] <= \uart_rx.scratch [1];
-  always @(posedge clk_5m)
-    if (_019_) \uart_rx.data [2] <= \uart_rx.scratch [2];
-  always @(posedge clk_5m)
-    if (_019_) \uart_rx.data [3] <= \uart_rx.scratch [3];
-  always @(posedge clk_5m)
-    if (_019_) \uart_rx.data [4] <= \uart_rx.scratch [4];
-  always @(posedge clk_5m)
-    if (_019_) \uart_rx.data [5] <= \uart_rx.scratch [5];
-  always @(posedge clk_5m)
-    if (_019_) \uart_rx.data [6] <= \uart_rx.scratch [6];
-  always @(posedge clk_5m)
-    if (_019_) \uart_rx.data [7] <= \uart_rx.scratch [7];
-  always @(posedge clk_5m)
-    if (_020_) \uart_rx.state [0] <= \_140_$func$synth_uart_audhi.v:609$177.$result [0];
-  always @(posedge clk_5m)
-    if (_020_) \uart_rx.state [1] <= \_140_$func$synth_uart_audhi.v:609$177.$result [1];
-  always @(posedge clk_5m)
-    if (_021_) \uart_rx.sample [0] <= \_136_$func$synth_uart_audhi.v:590$176.$result [0];
-  always @(posedge clk_5m)
-    if (_021_) \uart_rx.sample [1] <= \_136_$func$synth_uart_audhi.v:590$176.$result [1];
-  always @(posedge clk_5m)
-    if (_021_) \uart_rx.sample [2] <= \_136_$func$synth_uart_audhi.v:590$176.$result [2];
-  always @(posedge clk_5m)
-    if (_021_) \uart_rx.sample [3] <= \_136_$func$synth_uart_audhi.v:590$176.$result [3];
-  always @(posedge clk_5m)
-    if (_018_)
-      if (\_140_$func$synth_uart_audhi.v:609$177.$result [0]) \uart_rx.bitpos [0] <= 1'h0;
-      else \uart_rx.bitpos [0] <= _009_[0];
-  always @(posedge clk_5m)
-    if (_018_)
-      if (\_140_$func$synth_uart_audhi.v:609$177.$result [0]) \uart_rx.bitpos [1] <= 1'h0;
-      else \uart_rx.bitpos [1] <= _009_[1];
-  always @(posedge clk_5m)
-    if (_018_)
-      if (\_140_$func$synth_uart_audhi.v:609$177.$result [0]) \uart_rx.bitpos [2] <= 1'h0;
-      else \uart_rx.bitpos [2] <= _009_[2];
-  always @(posedge clk_5m)
-    if (_018_)
-      if (\_140_$func$synth_uart_audhi.v:609$177.$result [0]) \uart_rx.bitpos [3] <= 1'h0;
-      else \uart_rx.bitpos [3] <= _009_[3];
-  always @(posedge clk_5m)
-    if (_067_) \uart_tx.data [0] <= din[0];
-  always @(posedge clk_5m)
-    if (_067_) \uart_tx.data [1] <= din[1];
-  always @(posedge clk_5m)
-    if (_067_) \uart_tx.data [2] <= din[2];
-  always @(posedge clk_5m)
-    if (_067_) \uart_tx.data [3] <= din[3];
-  always @(posedge clk_5m)
-    if (_067_) \uart_tx.data [4] <= din[4];
-  always @(posedge clk_5m)
-    if (_067_) \uart_tx.data [5] <= din[5];
-  always @(posedge clk_5m)
-    if (_067_) \uart_tx.data [6] <= din[6];
-  always @(posedge clk_5m)
-    if (_067_) \uart_tx.data [7] <= din[7];
-  always @(posedge clk_5m)
-    \uart_rx.rdy  <= _004_;
-  always @(posedge clk_5m)
-    if (_068_) \uart_tx.state [0] <= \_182_$func$synth_uart_audhi.v:700$180.$result [0];
-  always @(posedge clk_5m)
-    if (_068_) \uart_tx.state [1] <= \_182_$func$synth_uart_audhi.v:700$180.$result [1];
-  always @(posedge clk_5m)
-    if (_018_)
-      if (\_140_$func$synth_uart_audhi.v:609$177.$result [0]) \uart_rx.scratch [0] <= 1'h0;
-      else \uart_rx.scratch [0] <= _007_[0];
-  always @(posedge clk_5m)
-    if (_018_)
-      if (\_140_$func$synth_uart_audhi.v:609$177.$result [0]) \uart_rx.scratch [1] <= 1'h0;
-      else \uart_rx.scratch [1] <= _007_[1];
-  always @(posedge clk_5m)
-    if (_018_)
-      if (\_140_$func$synth_uart_audhi.v:609$177.$result [0]) \uart_rx.scratch [2] <= 1'h0;
-      else \uart_rx.scratch [2] <= _007_[2];
-  always @(posedge clk_5m)
-    if (_018_)
-      if (\_140_$func$synth_uart_audhi.v:609$177.$result [0]) \uart_rx.scratch [3] <= 1'h0;
-      else \uart_rx.scratch [3] <= _007_[3];
-  always @(posedge clk_5m)
-    if (_018_)
-      if (\_140_$func$synth_uart_audhi.v:609$177.$result [0]) \uart_rx.scratch [4] <= 1'h0;
-      else \uart_rx.scratch [4] <= _007_[4];
-  always @(posedge clk_5m)
-    if (_018_)
-      if (\_140_$func$synth_uart_audhi.v:609$177.$result [0]) \uart_rx.scratch [5] <= 1'h0;
-      else \uart_rx.scratch [5] <= _007_[5];
-  always @(posedge clk_5m)
-    if (_018_)
-      if (\_140_$func$synth_uart_audhi.v:609$177.$result [0]) \uart_rx.scratch [6] <= 1'h0;
-      else \uart_rx.scratch [6] <= _007_[6];
-  always @(posedge clk_5m)
-    if (_018_)
-      if (\_140_$func$synth_uart_audhi.v:609$177.$result [0]) \uart_rx.scratch [7] <= 1'h0;
-      else \uart_rx.scratch [7] <= _007_[7];
-  always @(posedge clk_5m)
-    if (_070_) \uart_tx.tx  <= \_174_$func$synth_uart_audhi.v:662$178.$result ;
-  always @(posedge clk_5m)
-    if (_069_)
-      if (_073_) \uart_tx.bitpos [0] <= 1'h0;
-      else \uart_tx.bitpos [0] <= _057_[0];
-  always @(posedge clk_5m)
-    if (_069_)
-      if (_073_) \uart_tx.bitpos [1] <= 1'h0;
-      else \uart_tx.bitpos [1] <= _057_[1];
-  always @(posedge clk_5m)
-    if (_069_)
-      if (_073_) \uart_tx.bitpos [2] <= 1'h0;
-      else \uart_tx.bitpos [2] <= _057_[2];
+  sky130_fd_sc_hd__clkinv_1 _211_ (
+    .A(\uart_tx.bitpos [0]),
+    .Y(_057_[0])
+  );
+  sky130_fd_sc_hd__clkinv_1 _212_ (
+    .A(\uart_baud.rx_acc [0]),
+    .Y(_000_[0])
+  );
+  sky130_fd_sc_hd__clkinv_1 _213_ (
+    .A(\uart_rx.bitpos [0]),
+    .Y(_009_[0])
+  );
+  sky130_fd_sc_hd__clkinv_1 _214_ (
+    .A(\uart_tx.state [0]),
+    .Y(\_182_$func$synth_uart_audhi.v:700$180.$result [0])
+  );
+  sky130_fd_sc_hd__clkinv_1 _215_ (
+    .A(\uart_baud.tx_acc [0]),
+    .Y(_001_[0])
+  );
+  sky130_fd_sc_hd__clkinv_1 _216_ (
+    .A(rx),
+    .Y(_073_)
+  );
+  sky130_fd_sc_hd__clkinv_1 _217_ (
+    .A(\uart_rx.rdy ),
+    .Y(_074_)
+  );
+  sky130_fd_sc_hd__and2_0 _218_ (
+    .A(\uart_rx.sample [0]),
+    .B(\uart_rx.sample [1]),
+    .X(_075_)
+  );
+  sky130_fd_sc_hd__and3_1 _219_ (
+    .A(\uart_rx.sample [0]),
+    .B(\uart_rx.sample [2]),
+    .C(\uart_rx.sample [1]),
+    .X(_076_)
+  );
+  sky130_fd_sc_hd__and2_0 _220_ (
+    .A(\uart_rx.sample [3]),
+    .B(_076_),
+    .X(_077_)
+  );
+  sky130_fd_sc_hd__o21a_1 _221_ (
+    .A1(_073_),
+    .A2(_076_),
+    .B1(\uart_rx.sample [3]),
+    .X(_078_)
+  );
+  sky130_fd_sc_hd__and2_0 _222_ (
+    .A(\uart_rx.state [1]),
+    .B(_078_),
+    .X(_079_)
+  );
+  sky130_fd_sc_hd__nand2_1 _223_ (
+    .A(\uart_rx.state [1]),
+    .B(_078_),
+    .Y(_080_)
+  );
+  sky130_fd_sc_hd__nor2_1 _224_ (
+    .A(\uart_rx.sample [0]),
+    .B(_079_),
+    .Y(\_136_$func$synth_uart_audhi.v:590$176.$result [0])
+  );
+  sky130_fd_sc_hd__nor2_1 _225_ (
+    .A(\uart_rx.sample [0]),
+    .B(\uart_rx.sample [1]),
+    .Y(_081_)
+  );
+  sky130_fd_sc_hd__nor3_1 _226_ (
+    .A(_075_),
+    .B(_079_),
+    .C(_081_),
+    .Y(\_136_$func$synth_uart_audhi.v:590$176.$result [1])
+  );
+  sky130_fd_sc_hd__nor2_1 _227_ (
+    .A(\uart_rx.sample [2]),
+    .B(_075_),
+    .Y(_082_)
+  );
+  sky130_fd_sc_hd__nor3_1 _228_ (
+    .A(_076_),
+    .B(_079_),
+    .C(_082_),
+    .Y(\_136_$func$synth_uart_audhi.v:590$176.$result [2])
+  );
+  sky130_fd_sc_hd__nor2_1 _229_ (
+    .A(\uart_rx.sample [3]),
+    .B(_076_),
+    .Y(_083_)
+  );
+  sky130_fd_sc_hd__nor3_1 _230_ (
+    .A(_077_),
+    .B(_079_),
+    .C(_083_),
+    .Y(\_136_$func$synth_uart_audhi.v:590$176.$result [3])
+  );
+  sky130_fd_sc_hd__nand2_1 _231_ (
+    .A(\_182_$func$synth_uart_audhi.v:700$180.$result [0]),
+    .B(\uart_tx.state [1]),
+    .Y(_084_)
+  );
+  sky130_fd_sc_hd__xor2_1 _232_ (
+    .A(\uart_tx.state [0]),
+    .B(\uart_tx.state [1]),
+    .X(\_182_$func$synth_uart_audhi.v:700$180.$result [1])
+  );
+  sky130_fd_sc_hd__mux2i_1 _233_ (
+    .A0(\uart_tx.data [4]),
+    .A1(\uart_tx.data [5]),
+    .S(\uart_tx.bitpos [0]),
+    .Y(_085_)
+  );
+  sky130_fd_sc_hd__nor2b_1 _234_ (
+    .A(\uart_tx.bitpos [0]),
+    .B_N(\uart_tx.bitpos [1]),
+    .Y(_086_)
+  );
+  sky130_fd_sc_hd__nand3_1 _235_ (
+    .A(\uart_tx.bitpos [0]),
+    .B(\uart_tx.bitpos [1]),
+    .C(\uart_tx.data [7]),
+    .Y(_087_)
+  );
+  sky130_fd_sc_hd__o211ai_1 _236_ (
+    .A1(\uart_tx.bitpos [1]),
+    .A2(_085_),
+    .B1(_087_),
+    .C1(\uart_tx.bitpos [2]),
+    .Y(_088_)
+  );
+  sky130_fd_sc_hd__a21oi_1 _237_ (
+    .A1(\uart_tx.data [6]),
+    .A2(_086_),
+    .B1(_088_),
+    .Y(_089_)
+  );
+  sky130_fd_sc_hd__mux2i_1 _238_ (
+    .A0(\uart_tx.data [0]),
+    .A1(\uart_tx.data [1]),
+    .S(\uart_tx.bitpos [0]),
+    .Y(_090_)
+  );
+  sky130_fd_sc_hd__a31oi_1 _239_ (
+    .A1(\uart_tx.bitpos [0]),
+    .A2(\uart_tx.data [3]),
+    .A3(\uart_tx.bitpos [1]),
+    .B1(\uart_tx.bitpos [2]),
+    .Y(_091_)
+  );
+  sky130_fd_sc_hd__o21ai_0 _240_ (
+    .A1(\uart_tx.bitpos [1]),
+    .A2(_090_),
+    .B1(_091_),
+    .Y(_092_)
+  );
+  sky130_fd_sc_hd__a21oi_1 _241_ (
+    .A1(\uart_tx.data [2]),
+    .A2(_086_),
+    .B1(_092_),
+    .Y(_093_)
+  );
+  sky130_fd_sc_hd__o31ai_1 _242_ (
+    .A1(_084_),
+    .A2(_089_),
+    .A3(_093_),
+    .B1(\_182_$func$synth_uart_audhi.v:700$180.$result [1]),
+    .Y(\_174_$func$synth_uart_audhi.v:662$178.$result )
+  );
+  sky130_fd_sc_hd__or4_1 _243_ (
+    .A(\uart_baud.rx_acc [2]),
+    .B(\uart_baud.rx_acc [3]),
+    .C(\uart_baud.rx_acc [4]),
+    .D(\uart_baud.rx_acc [5]),
+    .X(_094_)
+  );
+  sky130_fd_sc_hd__or4_1 _244_ (
+    .A(\uart_baud.rx_acc [0]),
+    .B(\uart_baud.rx_acc [6]),
+    .C(\uart_baud.rx_acc [1]),
+    .D(_094_),
+    .X(_095_)
+  );
+  sky130_fd_sc_hd__nor3_1 _245_ (
+    .A(\uart_rx.state [0]),
+    .B(_080_),
+    .C(_095_),
+    .Y(_019_)
+  );
+  sky130_fd_sc_hd__o32ai_1 _246_ (
+    .A1(\uart_rx.state [0]),
+    .A2(_080_),
+    .A3(_095_),
+    .B1(_074_),
+    .B2(rdy_clr),
+    .Y(_004_)
+  );
+  sky130_fd_sc_hd__nor2_1 _247_ (
+    .A(\uart_tx.state [0]),
+    .B(\uart_tx.state [1]),
+    .Y(_096_)
+  );
+  sky130_fd_sc_hd__clkinv_1 _248_ (
+    .A(_096_),
+    .Y(tx_busy)
+  );
+  sky130_fd_sc_hd__xor2_1 _249_ (
+    .A(\uart_rx.bitpos [1]),
+    .B(\uart_rx.bitpos [0]),
+    .X(_009_[1])
+  );
+  sky130_fd_sc_hd__and3_1 _250_ (
+    .A(\uart_baud.tx_acc [0]),
+    .B(\uart_baud.tx_acc [1]),
+    .C(\uart_baud.tx_acc [2]),
+    .X(_097_)
+  );
+  sky130_fd_sc_hd__and4_1 _251_ (
+    .A(\uart_baud.tx_acc [0]),
+    .B(\uart_baud.tx_acc [1]),
+    .C(\uart_baud.tx_acc [2]),
+    .D(\uart_baud.tx_acc [3]),
+    .X(_098_)
+  );
+  sky130_fd_sc_hd__nand2_1 _252_ (
+    .A(\uart_baud.tx_acc [4]),
+    .B(_098_),
+    .Y(_099_)
+  );
+  sky130_fd_sc_hd__and4_1 _253_ (
+    .A(\uart_baud.tx_acc [4]),
+    .B(\uart_baud.tx_acc [5]),
+    .C(\uart_baud.tx_acc [6]),
+    .D(_098_),
+    .X(_100_)
+  );
+  sky130_fd_sc_hd__a31oi_1 _254_ (
+    .A1(\uart_baud.tx_acc [4]),
+    .A2(\uart_baud.tx_acc [5]),
+    .A3(_098_),
+    .B1(\uart_baud.tx_acc [6]),
+    .Y(_101_)
+  );
+  sky130_fd_sc_hd__nor2_1 _255_ (
+    .A(_100_),
+    .B(_101_),
+    .Y(_001_[6])
+  );
+  sky130_fd_sc_hd__nor2_1 _256_ (
+    .A(\uart_rx.state [1]),
+    .B(\uart_rx.state [0]),
+    .Y(\_140_$func$synth_uart_audhi.v:609$177.$result [0])
+  );
+  sky130_fd_sc_hd__clkinv_1 _257_ (
+    .A(\_140_$func$synth_uart_audhi.v:609$177.$result [0]),
+    .Y(_144_)
+  );
+  sky130_fd_sc_hd__nor2b_1 _258_ (
+    .A(\uart_rx.state [1]),
+    .B_N(\uart_rx.state [0]),
+    .Y(\_140_$func$synth_uart_audhi.v:609$177.$result [1])
+  );
+  sky130_fd_sc_hd__nor3b_1 _259_ (
+    .A(\uart_rx.state [0]),
+    .B(_078_),
+    .C_N(\uart_rx.state [1]),
+    .Y(_102_)
+  );
+  sky130_fd_sc_hd__nor2_1 _260_ (
+    .A(\uart_rx.bitpos [1]),
+    .B(\uart_rx.bitpos [0]),
+    .Y(_103_)
+  );
+  sky130_fd_sc_hd__nor3_1 _261_ (
+    .A(\uart_rx.bitpos [2]),
+    .B(\uart_rx.bitpos [1]),
+    .C(\uart_rx.bitpos [0]),
+    .Y(_104_)
+  );
+  sky130_fd_sc_hd__nand3_1 _262_ (
+    .A(\uart_rx.bitpos [3]),
+    .B(_077_),
+    .C(_104_),
+    .Y(_105_)
+  );
+  sky130_fd_sc_hd__o21bai_1 _263_ (
+    .A1(_077_),
+    .A2(_144_),
+    .B1_N(_095_),
+    .Y(_106_)
+  );
+  sky130_fd_sc_hd__a211oi_1 _264_ (
+    .A1(\_140_$func$synth_uart_audhi.v:609$177.$result [1]),
+    .A2(_105_),
+    .B1(_106_),
+    .C1(_102_),
+    .Y(_020_)
+  );
+  sky130_fd_sc_hd__nand2_1 _265_ (
+    .A(_081_),
+    .B(\_140_$func$synth_uart_audhi.v:609$177.$result [0]),
+    .Y(_107_)
+  );
+  sky130_fd_sc_hd__nor3_1 _266_ (
+    .A(\uart_rx.sample [2]),
+    .B(\uart_rx.sample [3]),
+    .C(_107_),
+    .Y(_108_)
+  );
+  sky130_fd_sc_hd__a221oi_1 _267_ (
+    .A1(\uart_rx.state [1]),
+    .A2(\uart_rx.state [0]),
+    .B1(_108_),
+    .B2(rx),
+    .C1(_095_),
+    .Y(_021_)
+  );
+  sky130_fd_sc_hd__nand2_1 _268_ (
+    .A(\uart_rx.bitpos [1]),
+    .B(\uart_rx.bitpos [0]),
+    .Y(_109_)
+  );
+  sky130_fd_sc_hd__nor2_1 _269_ (
+    .A(\uart_rx.bitpos [2]),
+    .B(_109_),
+    .Y(_110_)
+  );
+  sky130_fd_sc_hd__xnor2_1 _270_ (
+    .A(\uart_rx.bitpos [2]),
+    .B(_109_),
+    .Y(_009_[2])
+  );
+  sky130_fd_sc_hd__nand3_1 _271_ (
+    .A(\uart_rx.bitpos [2]),
+    .B(\uart_rx.bitpos [1]),
+    .C(\uart_rx.bitpos [0]),
+    .Y(_111_)
+  );
+  sky130_fd_sc_hd__xnor2_1 _272_ (
+    .A(\uart_rx.bitpos [3]),
+    .B(_111_),
+    .Y(_009_[3])
+  );
+  sky130_fd_sc_hd__xor2_1 _273_ (
+    .A(\uart_baud.tx_acc [0]),
+    .B(\uart_baud.tx_acc [1]),
+    .X(_001_[1])
+  );
+  sky130_fd_sc_hd__a21oi_1 _274_ (
+    .A1(\uart_baud.tx_acc [0]),
+    .A2(\uart_baud.tx_acc [1]),
+    .B1(\uart_baud.tx_acc [2]),
+    .Y(_112_)
+  );
+  sky130_fd_sc_hd__nor2_1 _275_ (
+    .A(_097_),
+    .B(_112_),
+    .Y(_001_[2])
+  );
+  sky130_fd_sc_hd__xor2_1 _276_ (
+    .A(\uart_baud.tx_acc [3]),
+    .B(_097_),
+    .X(_001_[3])
+  );
+  sky130_fd_sc_hd__xor2_1 _277_ (
+    .A(\uart_baud.tx_acc [4]),
+    .B(_098_),
+    .X(_001_[4])
+  );
+  sky130_fd_sc_hd__xnor2_1 _278_ (
+    .A(\uart_baud.tx_acc [5]),
+    .B(_099_),
+    .Y(_001_[5])
+  );
+  sky130_fd_sc_hd__nand2_1 _279_ (
+    .A(\uart_baud.tx_acc [7]),
+    .B(_100_),
+    .Y(_113_)
+  );
+  sky130_fd_sc_hd__xor2_1 _280_ (
+    .A(\uart_baud.tx_acc [7]),
+    .B(_100_),
+    .X(_001_[7])
+  );
+  sky130_fd_sc_hd__nand3_1 _281_ (
+    .A(\uart_baud.tx_acc [7]),
+    .B(\uart_baud.tx_acc [8]),
+    .C(_100_),
+    .Y(_114_)
+  );
+  sky130_fd_sc_hd__xnor2_1 _282_ (
+    .A(\uart_baud.tx_acc [8]),
+    .B(_113_),
+    .Y(_001_[8])
+  );
+  sky130_fd_sc_hd__nand4_1 _283_ (
+    .A(\uart_baud.tx_acc [7]),
+    .B(\uart_baud.tx_acc [8]),
+    .C(\uart_baud.tx_acc [9]),
+    .D(_100_),
+    .Y(_115_)
+  );
+  sky130_fd_sc_hd__xnor2_1 _284_ (
+    .A(\uart_baud.tx_acc [9]),
+    .B(_114_),
+    .Y(_001_[9])
+  );
+  sky130_fd_sc_hd__xnor2_1 _285_ (
+    .A(\uart_baud.tx_acc [10]),
+    .B(_115_),
+    .Y(_001_[10])
+  );
+  sky130_fd_sc_hd__xor2_1 _286_ (
+    .A(\uart_tx.bitpos [0]),
+    .B(\uart_tx.bitpos [1]),
+    .X(_057_[1])
+  );
+  sky130_fd_sc_hd__and3_1 _287_ (
+    .A(\uart_tx.bitpos [0]),
+    .B(\uart_tx.bitpos [1]),
+    .C(\uart_tx.bitpos [2]),
+    .X(_116_)
+  );
+  sky130_fd_sc_hd__a21oi_1 _288_ (
+    .A1(\uart_tx.bitpos [0]),
+    .A2(\uart_tx.bitpos [1]),
+    .B1(\uart_tx.bitpos [2]),
+    .Y(_117_)
+  );
+  sky130_fd_sc_hd__nor2_1 _289_ (
+    .A(_116_),
+    .B(_117_),
+    .Y(_057_[2])
+  );
+  sky130_fd_sc_hd__xor2_1 _290_ (
+    .A(\uart_baud.rx_acc [0]),
+    .B(\uart_baud.rx_acc [1]),
+    .X(_000_[1])
+  );
+  sky130_fd_sc_hd__and3_1 _291_ (
+    .A(\uart_baud.rx_acc [0]),
+    .B(\uart_baud.rx_acc [1]),
+    .C(\uart_baud.rx_acc [2]),
+    .X(_118_)
+  );
+  sky130_fd_sc_hd__a21oi_1 _292_ (
+    .A1(\uart_baud.rx_acc [0]),
+    .A2(\uart_baud.rx_acc [1]),
+    .B1(\uart_baud.rx_acc [2]),
+    .Y(_119_)
+  );
+  sky130_fd_sc_hd__nor2_1 _293_ (
+    .A(_118_),
+    .B(_119_),
+    .Y(_000_[2])
+  );
+  sky130_fd_sc_hd__nand2_1 _294_ (
+    .A(\uart_baud.rx_acc [3]),
+    .B(_118_),
+    .Y(_120_)
+  );
+  sky130_fd_sc_hd__xor2_1 _295_ (
+    .A(\uart_baud.rx_acc [3]),
+    .B(_118_),
+    .X(_000_[3])
+  );
+  sky130_fd_sc_hd__nand3_1 _296_ (
+    .A(\uart_baud.rx_acc [3]),
+    .B(\uart_baud.rx_acc [4]),
+    .C(_118_),
+    .Y(_121_)
+  );
+  sky130_fd_sc_hd__xnor2_1 _297_ (
+    .A(\uart_baud.rx_acc [4]),
+    .B(_120_),
+    .Y(_000_[4])
+  );
+  sky130_fd_sc_hd__nand4_1 _298_ (
+    .A(\uart_baud.rx_acc [3]),
+    .B(\uart_baud.rx_acc [4]),
+    .C(\uart_baud.rx_acc [5]),
+    .D(_118_),
+    .Y(_122_)
+  );
+  sky130_fd_sc_hd__xnor2_1 _299_ (
+    .A(\uart_baud.rx_acc [5]),
+    .B(_121_),
+    .Y(_000_[5])
+  );
+  sky130_fd_sc_hd__xnor2_1 _300_ (
+    .A(\uart_baud.rx_acc [6]),
+    .B(_122_),
+    .Y(_000_[6])
+  );
+  sky130_fd_sc_hd__nor2_1 _301_ (
+    .A(\uart_rx.scratch [0]),
+    .B(_104_),
+    .Y(_123_)
+  );
+  sky130_fd_sc_hd__a21oi_1 _302_ (
+    .A1(_073_),
+    .A2(_104_),
+    .B1(_123_),
+    .Y(_007_[0])
+  );
+  sky130_fd_sc_hd__nor3_1 _303_ (
+    .A(\uart_rx.bitpos [2]),
+    .B(\uart_rx.bitpos [1]),
+    .C(_009_[0]),
+    .Y(_124_)
+  );
+  sky130_fd_sc_hd__nor2_1 _304_ (
+    .A(\uart_rx.scratch [1]),
+    .B(_124_),
+    .Y(_125_)
+  );
+  sky130_fd_sc_hd__a21oi_1 _305_ (
+    .A1(_073_),
+    .A2(_124_),
+    .B1(_125_),
+    .Y(_007_[1])
+  );
+  sky130_fd_sc_hd__nor3b_1 _306_ (
+    .A(\uart_rx.bitpos [2]),
+    .B(\uart_rx.bitpos [0]),
+    .C_N(\uart_rx.bitpos [1]),
+    .Y(_126_)
+  );
+  sky130_fd_sc_hd__nor2_1 _307_ (
+    .A(\uart_rx.scratch [2]),
+    .B(_126_),
+    .Y(_127_)
+  );
+  sky130_fd_sc_hd__a21oi_1 _308_ (
+    .A1(_073_),
+    .A2(_126_),
+    .B1(_127_),
+    .Y(_007_[2])
+  );
+  sky130_fd_sc_hd__nor2_1 _309_ (
+    .A(\uart_rx.scratch [3]),
+    .B(_110_),
+    .Y(_128_)
+  );
+  sky130_fd_sc_hd__a21oi_1 _310_ (
+    .A1(_073_),
+    .A2(_110_),
+    .B1(_128_),
+    .Y(_007_[3])
+  );
+  sky130_fd_sc_hd__a21oi_1 _311_ (
+    .A1(\uart_rx.bitpos [2]),
+    .A2(_103_),
+    .B1(\uart_rx.scratch [4]),
+    .Y(_129_)
+  );
+  sky130_fd_sc_hd__a31oi_1 _312_ (
+    .A1(\uart_rx.bitpos [2]),
+    .A2(_073_),
+    .A3(_103_),
+    .B1(_129_),
+    .Y(_007_[4])
+  );
+  sky130_fd_sc_hd__nand3b_1 _313_ (
+    .A_N(\uart_rx.bitpos [1]),
+    .B(\uart_rx.bitpos [0]),
+    .C(\uart_rx.bitpos [2]),
+    .Y(_130_)
+  );
+  sky130_fd_sc_hd__nand2_1 _314_ (
+    .A(\uart_rx.scratch [5]),
+    .B(_130_),
+    .Y(_131_)
+  );
+  sky130_fd_sc_hd__o21ai_0 _315_ (
+    .A1(_073_),
+    .A2(_130_),
+    .B1(_131_),
+    .Y(_007_[5])
+  );
+  sky130_fd_sc_hd__nand3_1 _316_ (
+    .A(\uart_rx.bitpos [2]),
+    .B(\uart_rx.bitpos [1]),
+    .C(_009_[0]),
+    .Y(_132_)
+  );
+  sky130_fd_sc_hd__nand2_1 _317_ (
+    .A(\uart_rx.scratch [6]),
+    .B(_132_),
+    .Y(_133_)
+  );
+  sky130_fd_sc_hd__o21ai_0 _318_ (
+    .A1(_073_),
+    .A2(_132_),
+    .B1(_133_),
+    .Y(_007_[6])
+  );
+  sky130_fd_sc_hd__nand2_1 _319_ (
+    .A(\uart_rx.scratch [7]),
+    .B(_111_),
+    .Y(_134_)
+  );
+  sky130_fd_sc_hd__o21ai_0 _320_ (
+    .A1(_073_),
+    .A2(_111_),
+    .B1(_134_),
+    .Y(_007_[7])
+  );
+  sky130_fd_sc_hd__nand2_1 _321_ (
+    .A(wr_en),
+    .B(_096_),
+    .Y(_135_)
+  );
+  sky130_fd_sc_hd__clkinv_1 _322_ (
+    .A(_135_),
+    .Y(_067_)
+  );
+  sky130_fd_sc_hd__nor2_1 _323_ (
+    .A(\uart_tx.state [0]),
+    .B(_116_),
+    .Y(_136_)
+  );
+  sky130_fd_sc_hd__nor4_1 _324_ (
+    .A(\uart_baud.tx_acc [2]),
+    .B(\uart_baud.tx_acc [3]),
+    .C(\uart_baud.tx_acc [6]),
+    .D(\uart_baud.tx_acc [7]),
+    .Y(_137_)
+  );
+  sky130_fd_sc_hd__nor3_1 _325_ (
+    .A(\uart_baud.tx_acc [5]),
+    .B(\uart_baud.tx_acc [8]),
+    .C(\uart_baud.tx_acc [9]),
+    .Y(_138_)
+  );
+  sky130_fd_sc_hd__nor4_1 _326_ (
+    .A(\uart_baud.tx_acc [0]),
+    .B(\uart_baud.tx_acc [4]),
+    .C(\uart_baud.tx_acc [10]),
+    .D(\uart_baud.tx_acc [1]),
+    .Y(_139_)
+  );
+  sky130_fd_sc_hd__nand3_1 _327_ (
+    .A(_137_),
+    .B(_138_),
+    .C(_139_),
+    .Y(_140_)
+  );
+  sky130_fd_sc_hd__nor2_1 _328_ (
+    .A(_096_),
+    .B(_140_),
+    .Y(_070_)
+  );
+  sky130_fd_sc_hd__o31ai_1 _329_ (
+    .A1(_096_),
+    .A2(_136_),
+    .A3(_140_),
+    .B1(_135_),
+    .Y(_068_)
+  );
+  sky130_fd_sc_hd__o31ai_1 _330_ (
+    .A1(_084_),
+    .A2(_116_),
+    .A3(_140_),
+    .B1(_135_),
+    .Y(_069_)
+  );
+  sky130_fd_sc_hd__or4b_1 _331_ (
+    .A(_000_[0]),
+    .B(\uart_baud.rx_acc [1]),
+    .C(_094_),
+    .D_N(\uart_baud.rx_acc [6]),
+    .X(_071_)
+  );
+  sky130_fd_sc_hd__nand2_1 _332_ (
+    .A(\uart_baud.tx_acc [4]),
+    .B(\uart_baud.tx_acc [10]),
+    .Y(_141_)
+  );
+  sky130_fd_sc_hd__nor3_1 _333_ (
+    .A(_001_[0]),
+    .B(\uart_baud.tx_acc [1]),
+    .C(_141_),
+    .Y(_142_)
+  );
+  sky130_fd_sc_hd__nand3_1 _334_ (
+    .A(_137_),
+    .B(_138_),
+    .C(_142_),
+    .Y(_072_)
+  );
+  sky130_fd_sc_hd__nand3b_1 _335_ (
+    .A_N(\uart_rx.sample [2]),
+    .B(\uart_rx.sample [3]),
+    .C(_081_),
+    .Y(_143_)
+  );
+  sky130_fd_sc_hd__a211oi_1 _336_ (
+    .A1(\uart_rx.state [0]),
+    .A2(_143_),
+    .B1(_106_),
+    .C1(\uart_rx.state [1]),
+    .Y(_018_)
+  );
+  sky130_fd_sc_hd__clkinv_1 _337_ (
+    .A(_018_),
+    .Y(_203_)
+  );
+  sky130_fd_sc_hd__clkinv_1 _338_ (
+    .A(\uart_tx.bitpos [0]),
+    .Y(_204_)
+  );
+  sky130_fd_sc_hd__clkinv_1 _339_ (
+    .A(\uart_tx.bitpos [1]),
+    .Y(_205_)
+  );
+  sky130_fd_sc_hd__clkinv_1 _340_ (
+    .A(\uart_tx.bitpos [2]),
+    .Y(_206_)
+  );
+  sky130_fd_sc_hd__mux2_1 _341_ (
+    .A0(\uart_tx.tx ),
+    .A1(\_174_$func$synth_uart_audhi.v:662$178.$result ),
+    .S(_070_),
+    .X(_145_)
+  );
+  sky130_fd_sc_hd__mux2_1 _342_ (
+    .A0(\uart_rx.data [0]),
+    .A1(\uart_rx.scratch [0]),
+    .S(_019_),
+    .X(_164_)
+  );
+  sky130_fd_sc_hd__mux2_1 _343_ (
+    .A0(\uart_rx.data [1]),
+    .A1(\uart_rx.scratch [1]),
+    .S(_019_),
+    .X(_165_)
+  );
+  sky130_fd_sc_hd__mux2_1 _344_ (
+    .A0(\uart_rx.data [2]),
+    .A1(\uart_rx.scratch [2]),
+    .S(_019_),
+    .X(_166_)
+  );
+  sky130_fd_sc_hd__mux2_1 _345_ (
+    .A0(\uart_rx.data [3]),
+    .A1(\uart_rx.scratch [3]),
+    .S(_019_),
+    .X(_167_)
+  );
+  sky130_fd_sc_hd__mux2_1 _346_ (
+    .A0(\uart_rx.data [4]),
+    .A1(\uart_rx.scratch [4]),
+    .S(_019_),
+    .X(_168_)
+  );
+  sky130_fd_sc_hd__mux2_1 _347_ (
+    .A0(\uart_rx.data [5]),
+    .A1(\uart_rx.scratch [5]),
+    .S(_019_),
+    .X(_169_)
+  );
+  sky130_fd_sc_hd__mux2_1 _348_ (
+    .A0(\uart_rx.data [6]),
+    .A1(\uart_rx.scratch [6]),
+    .S(_019_),
+    .X(_170_)
+  );
+  sky130_fd_sc_hd__mux2_1 _349_ (
+    .A0(\uart_rx.data [7]),
+    .A1(\uart_rx.scratch [7]),
+    .S(_019_),
+    .X(_171_)
+  );
+  sky130_fd_sc_hd__mux2_1 _350_ (
+    .A0(\uart_rx.state [0]),
+    .A1(\_140_$func$synth_uart_audhi.v:609$177.$result [0]),
+    .S(_020_),
+    .X(_172_)
+  );
+  sky130_fd_sc_hd__mux2_1 _351_ (
+    .A0(\uart_rx.state [1]),
+    .A1(\_140_$func$synth_uart_audhi.v:609$177.$result [1]),
+    .S(_020_),
+    .X(_173_)
+  );
+  sky130_fd_sc_hd__mux2_1 _352_ (
+    .A0(\uart_rx.sample [0]),
+    .A1(\_136_$func$synth_uart_audhi.v:590$176.$result [0]),
+    .S(_021_),
+    .X(_174_)
+  );
+  sky130_fd_sc_hd__mux2_1 _353_ (
+    .A0(\uart_rx.sample [1]),
+    .A1(\_136_$func$synth_uart_audhi.v:590$176.$result [1]),
+    .S(_021_),
+    .X(_175_)
+  );
+  sky130_fd_sc_hd__mux2_1 _354_ (
+    .A0(\uart_rx.sample [2]),
+    .A1(\_136_$func$synth_uart_audhi.v:590$176.$result [2]),
+    .S(_021_),
+    .X(_176_)
+  );
+  sky130_fd_sc_hd__and2_0 _355_ (
+    .A(_018_),
+    .B(_144_),
+    .X(_207_)
+  );
+  sky130_fd_sc_hd__a22o_1 _356_ (
+    .A1(\uart_rx.bitpos [0]),
+    .A2(_203_),
+    .B1(_009_[0]),
+    .B2(_207_),
+    .X(_177_)
+  );
+  sky130_fd_sc_hd__a22o_1 _357_ (
+    .A1(_203_),
+    .A2(\uart_rx.bitpos [1]),
+    .B1(_009_[1]),
+    .B2(_207_),
+    .X(_178_)
+  );
+  sky130_fd_sc_hd__a22o_1 _358_ (
+    .A1(_203_),
+    .A2(\uart_rx.bitpos [2]),
+    .B1(_009_[2]),
+    .B2(_207_),
+    .X(_179_)
+  );
+  sky130_fd_sc_hd__a22o_1 _359_ (
+    .A1(_203_),
+    .A2(\uart_rx.bitpos [3]),
+    .B1(_009_[3]),
+    .B2(_207_),
+    .X(_180_)
+  );
+  sky130_fd_sc_hd__mux2_1 _360_ (
+    .A0(\uart_rx.sample [3]),
+    .A1(\_136_$func$synth_uart_audhi.v:590$176.$result [3]),
+    .S(_021_),
+    .X(_181_)
+  );
+  sky130_fd_sc_hd__mux2_1 _361_ (
+    .A0(\uart_tx.data [0]),
+    .A1(din[0]),
+    .S(_067_),
+    .X(_182_)
+  );
+  sky130_fd_sc_hd__mux2_1 _362_ (
+    .A0(\uart_tx.data [1]),
+    .A1(din[1]),
+    .S(_067_),
+    .X(_183_)
+  );
+  sky130_fd_sc_hd__mux2_1 _363_ (
+    .A0(\uart_tx.data [2]),
+    .A1(din[2]),
+    .S(_067_),
+    .X(_184_)
+  );
+  sky130_fd_sc_hd__mux2_1 _364_ (
+    .A0(\uart_tx.data [3]),
+    .A1(din[3]),
+    .S(_067_),
+    .X(_185_)
+  );
+  sky130_fd_sc_hd__mux2_1 _365_ (
+    .A0(\uart_tx.data [4]),
+    .A1(din[4]),
+    .S(_067_),
+    .X(_186_)
+  );
+  sky130_fd_sc_hd__mux2_1 _366_ (
+    .A0(\uart_tx.data [5]),
+    .A1(din[5]),
+    .S(_067_),
+    .X(_187_)
+  );
+  sky130_fd_sc_hd__mux2_1 _367_ (
+    .A0(\uart_tx.data [6]),
+    .A1(din[6]),
+    .S(_067_),
+    .X(_188_)
+  );
+  sky130_fd_sc_hd__mux2_1 _368_ (
+    .A0(\uart_tx.data [7]),
+    .A1(din[7]),
+    .S(_067_),
+    .X(_189_)
+  );
+  sky130_fd_sc_hd__mux2_1 _369_ (
+    .A0(\uart_tx.state [0]),
+    .A1(\_182_$func$synth_uart_audhi.v:700$180.$result [0]),
+    .S(_068_),
+    .X(_190_)
+  );
+  sky130_fd_sc_hd__a22o_1 _370_ (
+    .A1(\uart_rx.scratch [0]),
+    .A2(_203_),
+    .B1(_007_[0]),
+    .B2(_207_),
+    .X(_191_)
+  );
+  sky130_fd_sc_hd__a22o_1 _371_ (
+    .A1(\uart_rx.scratch [1]),
+    .A2(_203_),
+    .B1(_007_[1]),
+    .B2(_207_),
+    .X(_192_)
+  );
+  sky130_fd_sc_hd__a22o_1 _372_ (
+    .A1(\uart_rx.scratch [2]),
+    .A2(_203_),
+    .B1(_007_[2]),
+    .B2(_207_),
+    .X(_193_)
+  );
+  sky130_fd_sc_hd__a22o_1 _373_ (
+    .A1(\uart_rx.scratch [3]),
+    .A2(_203_),
+    .B1(_007_[3]),
+    .B2(_207_),
+    .X(_194_)
+  );
+  sky130_fd_sc_hd__a22o_1 _374_ (
+    .A1(\uart_rx.scratch [4]),
+    .A2(_203_),
+    .B1(_007_[4]),
+    .B2(_207_),
+    .X(_195_)
+  );
+  sky130_fd_sc_hd__a22o_1 _375_ (
+    .A1(\uart_rx.scratch [5]),
+    .A2(_203_),
+    .B1(_007_[5]),
+    .B2(_207_),
+    .X(_196_)
+  );
+  sky130_fd_sc_hd__a22o_1 _376_ (
+    .A1(\uart_rx.scratch [6]),
+    .A2(_203_),
+    .B1(_007_[6]),
+    .B2(_207_),
+    .X(_197_)
+  );
+  sky130_fd_sc_hd__a22o_1 _377_ (
+    .A1(\uart_rx.scratch [7]),
+    .A2(_203_),
+    .B1(_007_[7]),
+    .B2(_207_),
+    .X(_198_)
+  );
+  sky130_fd_sc_hd__mux2_1 _378_ (
+    .A0(\uart_tx.state [1]),
+    .A1(\_182_$func$synth_uart_audhi.v:700$180.$result [1]),
+    .S(_068_),
+    .X(_199_)
+  );
+  sky130_fd_sc_hd__nand3_1 _379_ (
+    .A(_069_),
+    .B(tx_busy),
+    .C(_057_[0]),
+    .Y(_208_)
+  );
+  sky130_fd_sc_hd__o21ai_0 _380_ (
+    .A1(_204_),
+    .A2(_069_),
+    .B1(_208_),
+    .Y(_200_)
+  );
+  sky130_fd_sc_hd__nand3_1 _381_ (
+    .A(_069_),
+    .B(tx_busy),
+    .C(_057_[1]),
+    .Y(_209_)
+  );
+  sky130_fd_sc_hd__o21ai_0 _382_ (
+    .A1(_069_),
+    .A2(_205_),
+    .B1(_209_),
+    .Y(_201_)
+  );
+  sky130_fd_sc_hd__nand3_1 _383_ (
+    .A(_069_),
+    .B(tx_busy),
+    .C(_057_[2]),
+    .Y(_210_)
+  );
+  sky130_fd_sc_hd__o21ai_0 _384_ (
+    .A1(_069_),
+    .A2(_206_),
+    .B1(_210_),
+    .Y(_202_)
+  );
+  sky130_fd_sc_hd__and2_0 _385_ (
+    .A(_072_),
+    .B(_001_[0]),
+    .X(_146_)
+  );
+  sky130_fd_sc_hd__and2_0 _386_ (
+    .A(_072_),
+    .B(_001_[1]),
+    .X(_147_)
+  );
+  sky130_fd_sc_hd__and2_0 _387_ (
+    .A(_072_),
+    .B(_001_[2]),
+    .X(_148_)
+  );
+  sky130_fd_sc_hd__and2_0 _388_ (
+    .A(_072_),
+    .B(_001_[3]),
+    .X(_149_)
+  );
+  sky130_fd_sc_hd__and2_0 _389_ (
+    .A(_072_),
+    .B(_001_[4]),
+    .X(_150_)
+  );
+  sky130_fd_sc_hd__and2_0 _390_ (
+    .A(_072_),
+    .B(_001_[5]),
+    .X(_151_)
+  );
+  sky130_fd_sc_hd__and2_0 _391_ (
+    .A(_072_),
+    .B(_001_[6]),
+    .X(_152_)
+  );
+  sky130_fd_sc_hd__and2_0 _392_ (
+    .A(_072_),
+    .B(_001_[7]),
+    .X(_153_)
+  );
+  sky130_fd_sc_hd__and2_0 _393_ (
+    .A(_072_),
+    .B(_001_[8]),
+    .X(_154_)
+  );
+  sky130_fd_sc_hd__and2_0 _394_ (
+    .A(_072_),
+    .B(_001_[9]),
+    .X(_155_)
+  );
+  sky130_fd_sc_hd__and2_0 _395_ (
+    .A(_072_),
+    .B(_001_[10]),
+    .X(_156_)
+  );
+  sky130_fd_sc_hd__and2_0 _396_ (
+    .A(_071_),
+    .B(_000_[0]),
+    .X(_157_)
+  );
+  sky130_fd_sc_hd__and2_0 _397_ (
+    .A(_071_),
+    .B(_000_[1]),
+    .X(_158_)
+  );
+  sky130_fd_sc_hd__and2_0 _398_ (
+    .A(_071_),
+    .B(_000_[2]),
+    .X(_159_)
+  );
+  sky130_fd_sc_hd__and2_0 _399_ (
+    .A(_071_),
+    .B(_000_[3]),
+    .X(_160_)
+  );
+  sky130_fd_sc_hd__and2_0 _400_ (
+    .A(_071_),
+    .B(_000_[4]),
+    .X(_161_)
+  );
+  sky130_fd_sc_hd__and2_0 _401_ (
+    .A(_071_),
+    .B(_000_[5]),
+    .X(_162_)
+  );
+  sky130_fd_sc_hd__and2_0 _402_ (
+    .A(_071_),
+    .B(_000_[6]),
+    .X(_163_)
+  );
+  sky130_fd_sc_hd__dfxtp_1 _403_ (
+    .CLK(clk_5m),
+    .D(_145_),
+    .Q(\uart_tx.tx )
+  );
+  sky130_fd_sc_hd__dfxtp_1 _404_ (
+    .CLK(clk_5m),
+    .D(_146_),
+    .Q(\uart_baud.tx_acc [0])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _405_ (
+    .CLK(clk_5m),
+    .D(_147_),
+    .Q(\uart_baud.tx_acc [1])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _406_ (
+    .CLK(clk_5m),
+    .D(_148_),
+    .Q(\uart_baud.tx_acc [2])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _407_ (
+    .CLK(clk_5m),
+    .D(_149_),
+    .Q(\uart_baud.tx_acc [3])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _408_ (
+    .CLK(clk_5m),
+    .D(_150_),
+    .Q(\uart_baud.tx_acc [4])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _409_ (
+    .CLK(clk_5m),
+    .D(_151_),
+    .Q(\uart_baud.tx_acc [5])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _410_ (
+    .CLK(clk_5m),
+    .D(_152_),
+    .Q(\uart_baud.tx_acc [6])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _411_ (
+    .CLK(clk_5m),
+    .D(_153_),
+    .Q(\uart_baud.tx_acc [7])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _412_ (
+    .CLK(clk_5m),
+    .D(_154_),
+    .Q(\uart_baud.tx_acc [8])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _413_ (
+    .CLK(clk_5m),
+    .D(_155_),
+    .Q(\uart_baud.tx_acc [9])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _414_ (
+    .CLK(clk_5m),
+    .D(_156_),
+    .Q(\uart_baud.tx_acc [10])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _415_ (
+    .CLK(clk_5m),
+    .D(_157_),
+    .Q(\uart_baud.rx_acc [0])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _416_ (
+    .CLK(clk_5m),
+    .D(_158_),
+    .Q(\uart_baud.rx_acc [1])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _417_ (
+    .CLK(clk_5m),
+    .D(_159_),
+    .Q(\uart_baud.rx_acc [2])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _418_ (
+    .CLK(clk_5m),
+    .D(_160_),
+    .Q(\uart_baud.rx_acc [3])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _419_ (
+    .CLK(clk_5m),
+    .D(_161_),
+    .Q(\uart_baud.rx_acc [4])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _420_ (
+    .CLK(clk_5m),
+    .D(_162_),
+    .Q(\uart_baud.rx_acc [5])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _421_ (
+    .CLK(clk_5m),
+    .D(_163_),
+    .Q(\uart_baud.rx_acc [6])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _422_ (
+    .CLK(clk_5m),
+    .D(_164_),
+    .Q(\uart_rx.data [0])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _423_ (
+    .CLK(clk_5m),
+    .D(_165_),
+    .Q(\uart_rx.data [1])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _424_ (
+    .CLK(clk_5m),
+    .D(_166_),
+    .Q(\uart_rx.data [2])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _425_ (
+    .CLK(clk_5m),
+    .D(_167_),
+    .Q(\uart_rx.data [3])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _426_ (
+    .CLK(clk_5m),
+    .D(_168_),
+    .Q(\uart_rx.data [4])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _427_ (
+    .CLK(clk_5m),
+    .D(_169_),
+    .Q(\uart_rx.data [5])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _428_ (
+    .CLK(clk_5m),
+    .D(_170_),
+    .Q(\uart_rx.data [6])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _429_ (
+    .CLK(clk_5m),
+    .D(_171_),
+    .Q(\uart_rx.data [7])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _430_ (
+    .CLK(clk_5m),
+    .D(_172_),
+    .Q(\uart_rx.state [0])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _431_ (
+    .CLK(clk_5m),
+    .D(_173_),
+    .Q(\uart_rx.state [1])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _432_ (
+    .CLK(clk_5m),
+    .D(_174_),
+    .Q(\uart_rx.sample [0])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _433_ (
+    .CLK(clk_5m),
+    .D(_175_),
+    .Q(\uart_rx.sample [1])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _434_ (
+    .CLK(clk_5m),
+    .D(_176_),
+    .Q(\uart_rx.sample [2])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _435_ (
+    .CLK(clk_5m),
+    .D(_177_),
+    .Q(\uart_rx.bitpos [0])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _436_ (
+    .CLK(clk_5m),
+    .D(_178_),
+    .Q(\uart_rx.bitpos [1])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _437_ (
+    .CLK(clk_5m),
+    .D(_179_),
+    .Q(\uart_rx.bitpos [2])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _438_ (
+    .CLK(clk_5m),
+    .D(_180_),
+    .Q(\uart_rx.bitpos [3])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _439_ (
+    .CLK(clk_5m),
+    .D(_181_),
+    .Q(\uart_rx.sample [3])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _440_ (
+    .CLK(clk_5m),
+    .D(_182_),
+    .Q(\uart_tx.data [0])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _441_ (
+    .CLK(clk_5m),
+    .D(_183_),
+    .Q(\uart_tx.data [1])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _442_ (
+    .CLK(clk_5m),
+    .D(_184_),
+    .Q(\uart_tx.data [2])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _443_ (
+    .CLK(clk_5m),
+    .D(_185_),
+    .Q(\uart_tx.data [3])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _444_ (
+    .CLK(clk_5m),
+    .D(_186_),
+    .Q(\uart_tx.data [4])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _445_ (
+    .CLK(clk_5m),
+    .D(_187_),
+    .Q(\uart_tx.data [5])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _446_ (
+    .CLK(clk_5m),
+    .D(_188_),
+    .Q(\uart_tx.data [6])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _447_ (
+    .CLK(clk_5m),
+    .D(_004_),
+    .Q(\uart_rx.rdy )
+  );
+  sky130_fd_sc_hd__dfxtp_1 _448_ (
+    .CLK(clk_5m),
+    .D(_189_),
+    .Q(\uart_tx.data [7])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _449_ (
+    .CLK(clk_5m),
+    .D(_190_),
+    .Q(\uart_tx.state [0])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _450_ (
+    .CLK(clk_5m),
+    .D(_191_),
+    .Q(\uart_rx.scratch [0])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _451_ (
+    .CLK(clk_5m),
+    .D(_192_),
+    .Q(\uart_rx.scratch [1])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _452_ (
+    .CLK(clk_5m),
+    .D(_193_),
+    .Q(\uart_rx.scratch [2])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _453_ (
+    .CLK(clk_5m),
+    .D(_194_),
+    .Q(\uart_rx.scratch [3])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _454_ (
+    .CLK(clk_5m),
+    .D(_195_),
+    .Q(\uart_rx.scratch [4])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _455_ (
+    .CLK(clk_5m),
+    .D(_196_),
+    .Q(\uart_rx.scratch [5])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _456_ (
+    .CLK(clk_5m),
+    .D(_197_),
+    .Q(\uart_rx.scratch [6])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _457_ (
+    .CLK(clk_5m),
+    .D(_198_),
+    .Q(\uart_rx.scratch [7])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _458_ (
+    .CLK(clk_5m),
+    .D(_199_),
+    .Q(\uart_tx.state [1])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _459_ (
+    .CLK(clk_5m),
+    .D(_200_),
+    .Q(\uart_tx.bitpos [0])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _460_ (
+    .CLK(clk_5m),
+    .D(_201_),
+    .Q(\uart_tx.bitpos [1])
+  );
+  sky130_fd_sc_hd__dfxtp_1 _461_ (
+    .CLK(clk_5m),
+    .D(_202_),
+    .Q(\uart_tx.bitpos [2])
+  );
   assign \_131_$func$synth_uart_audhi.v:557$181.b  = 16'hxxxx;
   assign \_131_$func$synth_uart_audhi.v:557$181.s  = 2'hx;
   assign \_133_$func$synth_uart_audhi.v:572$182.b  = 8'hxx;
@@ -766,4 +1619,3 @@ module uart(din, wr_en, clk_5m, tx, tx_busy, rx, rdy, rdy_clr, dout);
   assign \uart_tx.tx_busy  = tx_busy;
   assign \uart_tx.wr_en  = wr_en;
 endmodule
- 

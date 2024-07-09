@@ -109,7 +109,7 @@ Stats - Write Synth
 
 ```
 
-![40](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/0b105b04-bda4-4bce-b3c8-612b0a09de52)
+
 ![38 3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/332d4b58-8283-4b7f-b454-cfd42aa94a13)
 ![synth](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/d0ad6a6e-6b0c-48ad-a7df-330579a6bb7d)
 

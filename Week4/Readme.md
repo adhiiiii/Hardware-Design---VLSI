@@ -14,7 +14,7 @@
 
 ![3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/da3ed21a-2990-4e44-b9f5-b0dbaf3403b8)
 
- ## Timing Analysis with Multiple Process Corners (UART Synth -specific to SKY130)
+ ## Timing Analysis with Multiple Process Corners (UART Synth - specific to SKY130)
 
  ``` 'tcl' file - configuration ```
  

@@ -40,4 +40,5 @@
 ``` SS Vs TT Vs FF ```
 
 ![12](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/5c036e93-e0fc-4523-ac26-c49b3b96a9c7)
+![11](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/387a3586-91dc-48e8-87a5-df4d35912e4a)
 

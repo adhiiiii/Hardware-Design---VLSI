@@ -15,6 +15,8 @@
 ![3](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/da3ed21a-2990-4e44-b9f5-b0dbaf3403b8)
 
  ## Timing Analysis with Multiple Process Corners (UART Synth - specific to SKY130)
+```Manufactured chip characteristics may not be exact as designed due to Foundary process limitations, In order to overcome these, during design, we simulate min and max tolerance levels as per foundry specifications (SKY130) ,so any variations is with in acceptable tolerance, these are represented by min(sky130_fd_sc_hd__slow.lib) and max (sky130_fd_sc_hd__fast.lib) for SKY130```
+
 
  ``` 'tcl' file - configuration ```
  

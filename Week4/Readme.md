@@ -62,3 +62,5 @@
 ``` UART Post Synth Graph wrt SKY130 Timing libs ```
 
 ![6](https://github.com/user-attachments/assets/a37012b4-6abd-496e-97d1-71dbbe105069)
+
+![7](https://github.com/user-attachments/assets/0180583a-adf5-4ab2-804d-e5aab496323a)

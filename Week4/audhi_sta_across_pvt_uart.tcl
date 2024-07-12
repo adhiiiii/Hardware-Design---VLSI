@@ -36,7 +36,7 @@ set_output_delay -clock clk_5m 3 {dout rdy tx tx_busy}
 set_input_transition .1 [all_inputs]
 #current_design gcd_sky130hd.sdc
 check_setup -verbose
-# Report output constraints --------------------------------------
+# Report - output  --------------------------------------
 report_checks -path_delay min_max -fields {nets cap slew input_pins fanout} -digits {4} > ./sta_output/min_max_$list_of_lib_files($i).txt
 exec echo "$list_of_lib_files($i)" >> ./sta_output/sta_worst_slack.txt
 report_worst_slack >> ./sta_output/sta_worst_slack.txt

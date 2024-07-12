@@ -41,7 +41,6 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Requirements/Readme
 2) Timing Analysis with Multiple Process Corners - UART
 3) STA - Multiple Process Corners (WNS, TNS, Worst_Setup_Slack, Worst_Hold_Slack)
    
-![11](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/387a3586-91dc-48e8-87a5-df4d35912e4a)
 ![6](https://github.com/user-attachments/assets/a37012b4-6abd-496e-97d1-71dbbe105069) 
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week4/Readme.md

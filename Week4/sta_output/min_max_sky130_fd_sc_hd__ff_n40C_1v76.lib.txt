@@ -1,0 +1,64 @@
+Startpoint: _403_ (rising edge-triggered flip-flop clocked by clk_5m)
+Endpoint: _403_ (rising edge-triggered flip-flop clocked by clk_5m)
+Path Group: clk_5m
+Path Type: min
+
+Fanout       Cap      Slew     Delay      Time   Description
+------------------------------------------------------------------------------------
+                   0.0000    0.0000    0.0000   clock clk_5m (rise edge)
+                             0.0000    0.0000   clock network delay (ideal)
+                   0.0000    0.0000    0.0000 ^ _403_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                   0.0302    0.2041    0.2041 ^ _403_/Q (sky130_fd_sc_hd__dfxtp_1)
+    2    0.0021                                 uart_tx.tx (net)
+                   0.0305    0.0022    0.2064 ^ _341_/A0 (sky130_fd_sc_hd__mux2_1)
+                   0.0306    0.0765    0.2829 ^ _341_/X (sky130_fd_sc_hd__mux2_1)
+    1    0.0020                                 _145_ (net)
+                   0.0312    0.0035    0.2864 ^ _403_/D (sky130_fd_sc_hd__dfxtp_1)
+                                       0.2864   data arrival time
+
+                   0.0000    0.0000    0.0000   clock clk_5m (rise edge)
+                             0.0000    0.0000   clock network delay (ideal)
+                             0.0000    0.0000   clock reconvergence pessimism
+                                       0.0000 ^ _403_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                            -0.0223   -0.0223   library hold time
+                                      -0.0223   data required time
+------------------------------------------------------------------------------------
+                                      -0.0223   data required time
+                                      -0.2864   data arrival time
+------------------------------------------------------------------------------------
+                                       0.3087   slack (MET)
+
+
+Startpoint: _449_ (rising edge-triggered flip-flop clocked by clk_5m)
+Endpoint: tx_busy (output port clocked by clk_5m)
+Path Group: clk_5m
+Path Type: max
+
+Fanout       Cap      Slew     Delay      Time   Description
+------------------------------------------------------------------------------------
+                   0.0000    0.0000    0.0000   clock clk_5m (rise edge)
+                             0.0000    0.0000   clock network delay (ideal)
+                   0.0000    0.0000    0.0000 ^ _449_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                   0.0655    0.2363    0.2363 v _449_/Q (sky130_fd_sc_hd__dfxtp_1)
+    5    0.0140                                 uart_tx.state[0] (net)
+                   0.0657    0.0031    0.2395 v _247_/A (sky130_fd_sc_hd__nor2_1)
+                   0.2048    0.1781    0.4175 ^ _247_/Y (sky130_fd_sc_hd__nor2_1)
+    4    0.0111                                 _096_ (net)
+                   0.2049    0.0040    0.4215 ^ _248_/A (sky130_fd_sc_hd__clkinv_1)
+                   0.0898    0.0982    0.5197 v _248_/Y (sky130_fd_sc_hd__clkinv_1)
+    4    0.0077                                 tx_busy (net)
+                   0.0898    0.0003    0.5200 v tx_busy (out)
+                                       0.5200   data arrival time
+
+                   0.0000    5.0000    5.0000   clock clk_5m (rise edge)
+                             0.0000    5.0000   clock network delay (ideal)
+                             0.0000    5.0000   clock reconvergence pessimism
+                            -3.0000    2.0000   output external delay
+                                       2.0000   data required time
+------------------------------------------------------------------------------------
+                                       2.0000   data required time
+                                      -0.5200   data arrival time
+------------------------------------------------------------------------------------
+                                       1.4800   slack (MET)
+
+

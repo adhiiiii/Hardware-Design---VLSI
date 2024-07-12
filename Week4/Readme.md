@@ -45,7 +45,13 @@
 ## STA - Multiple Process Corners (WNS, TNS, Worst_Setup_Slack, Worst_Hold_Slack)
 
 ![Tcl_File](https://github.com/user-attachments/assets/e2f5faec-66f6-4100-b4b2-35e363cf5e91)
+
+``` STA Exection based on above TCL file configuration ``` 
+
 ![2_TCL_Execution](https://github.com/user-attachments/assets/cf14d998-ce3a-4ddf-b6ef-38d840ebaadd)
+
+``` Files generated as per TCL file configuration for analysis ```
+
 ![3_worst_slack](https://github.com/user-attachments/assets/45534c93-bb7d-47d3-abbd-bd3600741039)
 ![4](https://github.com/user-attachments/assets/63a31690-dda3-4577-b445-5c7eafb3215c)
 

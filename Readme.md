@@ -35,7 +35,7 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week2/Readme.md
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Requirements/Readme.md
 
-## Week-4 - In progress
+## Week-4 
 
 1) OpenSTA..
 2) Timing Analysis with Multiple Process Corners - UART
@@ -45,7 +45,7 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Requirements/Readme
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week4/Readme.md
 
-## Week-5
+## Week-5 - In progress
 ## Week-6 ..
 
 ### _References_

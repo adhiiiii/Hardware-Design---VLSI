@@ -55,3 +55,10 @@
 ![3_worst_slack](https://github.com/user-attachments/assets/45534c93-bb7d-47d3-abbd-bd3600741039)
 ![4](https://github.com/user-attachments/assets/63a31690-dda3-4577-b445-5c7eafb3215c)
 
+``` WNS Vs TNS Vs WSS Vs WHS ```
+
+![5](https://github.com/user-attachments/assets/46f53bdd-4d33-4ed6-8503-0e0a5adece84)
+
+``` UART Post Synth Graph wrt SKY130 Timing libs ```
+
+![6](https://github.com/user-attachments/assets/a37012b4-6abd-496e-97d1-71dbbe105069)

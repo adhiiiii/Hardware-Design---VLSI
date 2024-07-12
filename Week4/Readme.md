@@ -42,5 +42,10 @@
 ![12](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/5c036e93-e0fc-4523-ac26-c49b3b96a9c7)
 ![11](https://github.com/adhiiiii/Hardware-Design---VLSI/assets/47310995/387a3586-91dc-48e8-87a5-df4d35912e4a)
 
-## STA with Multiple Process Corners (WNS, TNS, Worst_setup_slack, Worst_hold_slack)
+## STA - Multiple Process Corners (WNS, TNS, Worst_setup_slack, Worst_hold_slack)
+
+![Tcl_File](https://github.com/user-attachments/assets/e2f5faec-66f6-4100-b4b2-35e363cf5e91)
+![2_TCL_Execution](https://github.com/user-attachments/assets/cf14d998-ce3a-4ddf-b6ef-38d840ebaadd)
+![3_worst_slack](https://github.com/user-attachments/assets/45534c93-bb7d-47d3-abbd-bd3600741039)
+![4](https://github.com/user-attachments/assets/63a31690-dda3-4577-b445-5c7eafb3215c)
 

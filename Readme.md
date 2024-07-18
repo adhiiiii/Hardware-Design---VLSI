@@ -1,5 +1,4 @@
 # Hardware Design
-![gds](https://github.com/user-attachments/assets/5505ca04-f7f8-407c-aabc-803d66f3f343)
 ## Prerequisite 
    1) _yosys_
    2) _iverilog_

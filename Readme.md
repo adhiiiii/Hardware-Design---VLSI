@@ -45,7 +45,7 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Requirements/Readme
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week4/Readme.md
 
-## Week-5 - In progress ..
+## Week-5 
 
 1) SDC
 

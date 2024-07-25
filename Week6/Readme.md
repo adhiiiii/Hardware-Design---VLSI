@@ -23,3 +23,12 @@
 ![6](https://github.com/user-attachments/assets/b9e8c225-db95-4707-a64e-658faa484ddd)
 ![7](https://github.com/user-attachments/assets/908e5777-6a55-487a-b8ac-69af4c68bcc5)
 
+## Lab 1 - Flop Ratio - picorv32a
+
+``` ./flow.tcl -design picorv32a ```
+
+![10](https://github.com/user-attachments/assets/bbe5150a-0581-4107-9670-16256ad1159e)
+
+``` Flop Ration = D flipflop cells / total cells  ==> 1596/9269 = 0.172 ```
+
+![11_cells_flop_Ratio](https://github.com/user-attachments/assets/9b4a87d9-0c93-41d6-877b-5c4159040703)

@@ -53,6 +53,10 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week5/Readme.md
 
 ## Week-6 - In progress ..
 
+1) OpenLane-Sky130-USB Core PDK flow - Test run
+2) Flop Ratio - picorv32a
+3) Floorplan
+   
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week6/Readme.md
 
 ## Week-7

@@ -32,3 +32,15 @@
 ``` Flop Ration = D flipflop cells / total cells  ==> 1596/9269 = 0.172 ```
 
 ![11_cells_flop_Ratio](https://github.com/user-attachments/assets/9b4a87d9-0c93-41d6-877b-5c4159040703)
+
+## Lab 2 - Floorplan
+
+``` prep -design picorv32a --> run_synthesis --> run_floorplan --> run_placement ```
+
+![1](https://github.com/user-attachments/assets/33c7eee5-c32f-4791-9054-3bb5c085bebc)
+![2](https://github.com/user-attachments/assets/cd72a672-99ad-40a1-a893-8e358bf99432)
+
+``` Die Area ```
+
+![3_DieArea](https://github.com/user-attachments/assets/a06e086c-0f9b-4ee0-95a7-ba9dd8aaf840)
+

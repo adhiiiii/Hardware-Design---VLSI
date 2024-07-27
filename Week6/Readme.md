@@ -44,3 +44,5 @@
 
 ![3_DieArea](https://github.com/user-attachments/assets/a06e086c-0f9b-4ee0-95a7-ba9dd8aaf840)
 
+``` Magic View ```
+![4](https://github.com/user-attachments/assets/e2b23214-f632-4237-9603-82e801cea842)

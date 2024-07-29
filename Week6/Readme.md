@@ -46,3 +46,18 @@
 
 ``` Magic View ```
 ![4](https://github.com/user-attachments/assets/e2b23214-f632-4237-9603-82e801cea842)
+
+## Lab 3 - Cell Design (VLSI Magic Layout - ngspice)
+
+```github vsdstdcelldesign -->inverter layout```
+
+![5](https://github.com/user-attachments/assets/6f42e796-b720-4edd-a61b-41038af3eb49)
+
+```SPICE CMOS Inverter Simulation extracted from MAGIC```
+
+![6](https://github.com/user-attachments/assets/aa024c53-c78b-4710-8621-9d7a1d6356d8)
+![7](https://github.com/user-attachments/assets/c33b604b-0dbd-4d75-907d-f4f15bdc3384)
+![8](https://github.com/user-attachments/assets/039a4fff-f5a1-4ff6-8f2e-525c7c74127b)
+![9](https://github.com/user-attachments/assets/0fd92e7c-a3fa-4995-a92b-45cd1969e6f7)
+![10](https://github.com/user-attachments/assets/f07a2027-64b6-4b4a-9049-6f4e09a770bd)
+![11](https://github.com/user-attachments/assets/ea762cb1-4631-4a18-befe-97459f3eb5c3)

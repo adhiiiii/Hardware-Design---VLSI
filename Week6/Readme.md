@@ -52,6 +52,10 @@
 ```github vsdstdcelldesign -->inverter layout```
 
 ![13](https://github.com/user-attachments/assets/a9814d36-c9e8-441e-9334-16be47d99532)
+
+
+``` Inverter CMOS - MAGIC VLSI ```
+
 ![5](https://github.com/user-attachments/assets/6f42e796-b720-4edd-a61b-41038af3eb49)
 
 ```SPICE CMOS Inverter Simulation extracted from MAGIC```

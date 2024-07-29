@@ -73,3 +73,7 @@
 ``` Rise Delay = 10.0 , Fall Delay =11.4 ; Rise Transition =  , Fall transition = ```
 
 ![11](https://github.com/user-attachments/assets/ea762cb1-4631-4a18-befe-97459f3eb5c3)
+
+```DRC Section - sky130A ```
+
+![14](https://github.com/user-attachments/assets/ffe1b182-a0b1-429e-813b-417f843bf6e8)

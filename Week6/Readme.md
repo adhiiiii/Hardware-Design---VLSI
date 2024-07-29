@@ -55,6 +55,7 @@
 
 ```SPICE CMOS Inverter Simulation extracted from MAGIC```
 
+![12](https://github.com/user-attachments/assets/49c69f9c-c75c-4035-9327-c152e28f49e7)
 ![6](https://github.com/user-attachments/assets/aa024c53-c78b-4710-8621-9d7a1d6356d8)
 ![7](https://github.com/user-attachments/assets/c33b604b-0dbd-4d75-907d-f4f15bdc3384)
 ![8](https://github.com/user-attachments/assets/039a4fff-f5a1-4ff6-8f2e-525c7c74127b)

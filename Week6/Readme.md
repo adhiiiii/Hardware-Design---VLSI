@@ -65,6 +65,9 @@
 ![7](https://github.com/user-attachments/assets/c33b604b-0dbd-4d75-907d-f4f15bdc3384)
 ![8](https://github.com/user-attachments/assets/039a4fff-f5a1-4ff6-8f2e-525c7c74127b)
 ![9](https://github.com/user-attachments/assets/0fd92e7c-a3fa-4995-a92b-45cd1969e6f7)
+
+``` Waveform Generated from SPICE script ```
+
 ![10](https://github.com/user-attachments/assets/f07a2027-64b6-4b4a-9049-6f4e09a770bd)
 
 ``` Rise Delay = 10.0 , Fall Delay =11.4 ; Rise Transition =  , Fall transition = ```

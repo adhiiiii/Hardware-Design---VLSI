@@ -62,6 +62,6 @@
 ![9](https://github.com/user-attachments/assets/0fd92e7c-a3fa-4995-a92b-45cd1969e6f7)
 ![10](https://github.com/user-attachments/assets/f07a2027-64b6-4b4a-9049-6f4e09a770bd)
 
-``` Rise Delay = 10.0 , Fall Delay =11.4 ```
+``` Rise Delay = 10.0 , Fall Delay =11.4 ; Rise Transition =  , Fall transition = ```
 
 ![11](https://github.com/user-attachments/assets/ea762cb1-4631-4a18-befe-97459f3eb5c3)

@@ -91,5 +91,5 @@
 
 ![a5](https://github.com/user-attachments/assets/8b4fd614-6f66-4ba1-a90e-4556bcbf9da0)
 
-## Lab 4 - Pre-Layout - Timining Analysis
+## Lab 4 - Pre-Layout - Timing Analysis
 

@@ -90,3 +90,5 @@
 ![a4](https://github.com/user-attachments/assets/c2d05bed-2b89-4e52-82bc-417b4f356dfe)
 
 ![a5](https://github.com/user-attachments/assets/8b4fd614-6f66-4ba1-a90e-4556bcbf9da0)
+
+## Lab 4 - Cell Design (VLSI Magic Layout - ngspice)

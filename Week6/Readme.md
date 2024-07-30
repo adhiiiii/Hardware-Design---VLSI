@@ -93,3 +93,7 @@
 
 ## Lab 4 - Pre-Layout - Timing Analysis
 
+![b1](https://github.com/user-attachments/assets/a3d4352f-0fdf-4c7a-9719-303ed133482e)
+
+![b2](https://github.com/user-attachments/assets/d8ec4499-257c-4cbf-b6cc-5fc35dfceaae)
+

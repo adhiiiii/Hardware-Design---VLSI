@@ -57,7 +57,7 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week5/Readme.md
 2) Flop Ratio - picorv32a
 3) Floorplan
 4) Cell Design (VLSI Magic Layout - ngspice)
-5) Pre-Layout - Timining Analysis
+5) Pre-Layout - Timing Analysis
 6) RTL2GDS - Picorv32 with custom vsdstdcell design
    
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week6/Readme.md

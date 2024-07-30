@@ -101,3 +101,7 @@
 
 ![b2](https://github.com/user-attachments/assets/d8ec4499-257c-4cbf-b6cc-5fc35dfceaae)
 
+``` Config file with custom LEF ```
+
+![b3](https://github.com/user-attachments/assets/cb4cc02c-f9ee-463c-b47a-cf2f28f30fac)
+

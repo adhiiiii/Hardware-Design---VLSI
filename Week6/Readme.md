@@ -77,3 +77,16 @@
 ```DRC Section - sky130A ```
 
 ![14](https://github.com/user-attachments/assets/ffe1b182-a0b1-429e-813b-417f843bf6e8)
+![14_0](https://github.com/user-attachments/assets/b4be1c64-8d6c-481f-bf74-808ea43324e9)
+
+```poly.9 - poly resistor spacing to poly or spacing - 0.480 um, It has less than 0.33u, which is a violation as per SKY130 ``` 
+
+![a1](https://github.com/user-attachments/assets/a927021f-7121-4385-9d92-5ecaa2d03427)
+  
+![a2](https://github.com/user-attachments/assets/a97035e5-9ab0-412d-8a2e-5c11b5091c7a)
+ 
+![a3](https://github.com/user-attachments/assets/fbb6b1fb-09d6-41f0-bb84-24a901498597)
+
+![a4](https://github.com/user-attachments/assets/c2d05bed-2b89-4e52-82bc-417b4f356dfe)
+
+![a5](https://github.com/user-attachments/assets/8b4fd614-6f66-4ba1-a90e-4556bcbf9da0)

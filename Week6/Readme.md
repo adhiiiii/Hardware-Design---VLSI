@@ -110,3 +110,20 @@
 ![b3](https://github.com/user-attachments/assets/cb4cc02c-f9ee-463c-b47a-cf2f28f30fac)
 
 ## Lab 5 - RTL to GDS 
+
+``` picorva32a OpenLane Execution ```
+
+![d1](https://github.com/user-attachments/assets/32f5abe8-fa88-4809-a64f-44a008e0f9b9)
+![d2](https://github.com/user-attachments/assets/3f251187-2b1d-496d-b59c-3dbf86dca5e9)
+![d2_1](https://github.com/user-attachments/assets/57a77f51-b819-4d35-a667-dc8cf25161cb)
+
+``` gds - klayout ```
+
+![d3](https://github.com/user-attachments/assets/8237cdad-9a1f-4c22-917d-41238e92fbb4)
+![d3_1](https://github.com/user-attachments/assets/20399247-31da-4dd0-8ff7-fe2125892d61)
+![d5](https://github.com/user-attachments/assets/1a1a3f18-6213-400a-8540-992ad34212e4)
+![d6](https://github.com/user-attachments/assets/a94e8a2f-93cc-4830-8c18-a349cf1cbc28)
+
+```gds - VLSI Magic ```
+
+![d7_magic_layout](https://github.com/user-attachments/assets/5ef0db9b-027c-4659-b385-81c98a6d93ab)

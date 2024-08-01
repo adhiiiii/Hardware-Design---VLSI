@@ -59,6 +59,8 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week5/Readme.md
 4) Cell Design (VLSI Magic Layout - ngspice)
 5) Pre-Layout - Timing Analysis
 6) RTL2GDS - Picorv32 with custom vsdstdcell design
+
+![d5](https://github.com/user-attachments/assets/a479a197-2469-46ea-8074-4b3b09a1ea3a)
    
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week6/Readme.md
 

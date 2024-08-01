@@ -97,6 +97,10 @@
 
 ![b1](https://github.com/user-attachments/assets/a3d4352f-0fdf-4c7a-9719-303ed133482e)
 
+```drc find - check for any errors ```
+
+![c1](https://github.com/user-attachments/assets/504d3f75-11c8-4eba-8551-9bd8c99ec4c5)
+
 ``` Generated LEF ```
 
 ![b2](https://github.com/user-attachments/assets/d8ec4499-257c-4cbf-b6cc-5fc35dfceaae)

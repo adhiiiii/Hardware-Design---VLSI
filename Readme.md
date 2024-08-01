@@ -73,3 +73,8 @@ UART
 1. https://onlinedocs.microchip.com/pr/GUID-167CA20A-2C0F-4CBC-A693-9FD032B9B193-en-US-1/index.html?GUID-39D5E45F-A0F3-4832-AFEC-DD769377CA0A
 2. https://www.ti.com/lit/ug/sprugp1/sprugp1.pdf?ts=1721283332080&ref_url=https%253A%252F%252Fwww.google.com%252F
 ```
+### _Acknowledgement_
+
+_1) Kunal Ghosh, Founder VSD Corportation_
+_2) Tim Edwards, eFabless_
+

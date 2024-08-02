@@ -84,6 +84,6 @@ UART
 ```
 ### _Acknowledgement_
 
-_1) Kunal Ghosh, Founder VSD Corportation_
-_2) Tim Edwards, eFabless_
+_* Kunal Ghosh, Founder VSD Corportation_
+_* Tim Edwards, eFabless_
 

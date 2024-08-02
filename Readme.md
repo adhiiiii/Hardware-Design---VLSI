@@ -64,8 +64,9 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week5/Readme.md
    
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week6/Readme.md
 
-## Week-7
+## Week-7 -In progress ..
 
+1) RTL2GDS - UART with custom generated parameters
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week7/Readme.md
 

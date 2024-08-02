@@ -18,7 +18,7 @@
 ![Magic_view](https://github.com/user-attachments/assets/2116123f-064c-4a75-876c-cb08b891e342)
 
 ### GDS generated from openlane flow - KLayout visualisation
-
+![lef](https://github.com/user-attachments/assets/1fba1f0e-481d-451f-95fc-c76776954229)
 ![5](https://github.com/user-attachments/assets/bc9a17b2-b883-4cbc-88c0-4271b0b05d2e)
 ![6](https://github.com/user-attachments/assets/b634be8b-5955-4e3d-9884-48b3412e5095)
 ![7](https://github.com/user-attachments/assets/c55e9284-063a-494d-b881-d8d6aa54235c)

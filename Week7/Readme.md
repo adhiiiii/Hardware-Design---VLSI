@@ -13,6 +13,10 @@
 ![3](https://github.com/user-attachments/assets/56aac8ce-5b2b-4152-9dc9-83495bafff45)
 ![4](https://github.com/user-attachments/assets/40298346-f476-4905-9c33-2fbb6fe5ad2e)
 
+### Magic View 
+
+![Magic_view](https://github.com/user-attachments/assets/2116123f-064c-4a75-876c-cb08b891e342)
+
 ### GDS generated from openlane flow - KLayout visualisation
 
 ![5](https://github.com/user-attachments/assets/bc9a17b2-b883-4cbc-88c0-4271b0b05d2e)

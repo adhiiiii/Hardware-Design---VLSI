@@ -73,6 +73,9 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week6/Readme.md
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week7/Readme.md
 
 ## Week-8 --In progress..
+
+https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week8/Readme.md
+
 ## Week-9
 ## Week-10 
 

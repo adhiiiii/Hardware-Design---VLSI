@@ -105,8 +105,11 @@
 
 ![b2](https://github.com/user-attachments/assets/d8ec4499-257c-4cbf-b6cc-5fc35dfceaae)
 
-``` Config file with custom LEF ```
+``` Custom Cells - synthesis ```
 
+![1](https://github.com/user-attachments/assets/6c70b288-b738-4dc0-bba1-c96fbe4f89b5)
+
+![2](https://github.com/user-attachments/assets/0724ea98-07ae-44fc-b4f5-0abc061c9063)
 
 
 ## Lab 5 - RTL to GDS 

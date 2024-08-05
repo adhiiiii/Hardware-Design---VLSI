@@ -2,7 +2,7 @@
 
 ## UART Clock Timing Overview Diagram
 
-![2](https://github.com/user-attachments/assets/7ea63e0a-108b-45bd-8152-14cd47df3117)
+![2](https://github.com/user-attachments/assets/dbc27390-7ed2-4697-b8b7-a31c7ee1b149)
 
 ![Capture](https://github.com/user-attachments/assets/8d359229-b453-4535-84c9-abf442dc42f3)
 

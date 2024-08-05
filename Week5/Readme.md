@@ -1,6 +1,6 @@
 # Week 5
 
-## UART Clok Timing Overview Diagram
+## UART Clock Timing Overview Diagram
 
 ![2](https://github.com/user-attachments/assets/7ea63e0a-108b-45bd-8152-14cd47df3117)
 

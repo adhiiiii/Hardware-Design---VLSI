@@ -10,6 +10,8 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Prerequisite/Readme
   2) _yosys_ using sky130 lib
   3) Hierarchical-Flat-Submodule Synthesis
   4) Flop - Synthesis - Optimisation 
+
+![2](https://github.com/user-attachments/assets/0771c166-7af6-4772-ac2e-4cf2c90805b3)
      
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week1/Readme.md
 ## Week-2 

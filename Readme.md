@@ -18,6 +18,8 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week1/Readme.md
 2) Sequential Logic Optimizations
 3) Gate Level Simulation  
 
+![1](https://github.com/user-attachments/assets/be47c4b5-2a26-4f1c-a2fc-c7bce281e54a)
+
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week2/Readme.md
 
 ## Week-3

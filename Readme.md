@@ -80,6 +80,12 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week7/Readme.md
 
 ## Week-8 --In progress..
 
+1) OpenLane2 UART Execution
+2) Post-Synthesis STA
+3) Post-CTS STA
+4) Post-Placement STA
+5) Post-Route STA
+
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week8/Readme.md
 
 ## Week-9

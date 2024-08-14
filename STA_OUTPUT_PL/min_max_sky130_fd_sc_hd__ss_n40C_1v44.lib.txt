@@ -1,0 +1,74 @@
+Startpoint: _367_ (rising edge-triggered flip-flop clocked by audhi_clk_5m)
+Endpoint: _367_ (rising edge-triggered flip-flop clocked by audhi_clk_5m)
+Path Group: audhi_clk_5m
+Path Type: min
+
+Fanout       Cap      Slew     Delay      Time   Description
+-------------------------------------------------------------------------------------
+                    0.0000    0.0000    0.0000   clock audhi_clk_5m (rise edge)
+                              0.0000    0.0000   clock network delay (ideal)
+                    0.0000    0.0000    0.0000 ^ _367_/CLK (sky130_fd_sc_hd__dfxtp_1)
+     5    0.0102    0.1157    0.7876    0.7876 v _367_/Q (sky130_fd_sc_hd__dfxtp_1)
+                                                 uart_baud.rx_acc[0] (net)
+                    0.1157    0.0000    0.7876 v _160_/A (sky130_fd_sc_hd__inv_2)
+     2    0.0027    0.0630    0.1203    0.9079 ^ _160_/Y (sky130_fd_sc_hd__inv_2)
+                                                 _049_ (net)
+                    0.0630    0.0000    0.9079 ^ _367_/D (sky130_fd_sc_hd__dfxtp_1)
+                                        0.9079   data arrival time
+
+                    0.0000    0.0000    0.0000   clock audhi_clk_5m (rise edge)
+                              0.0000    0.0000   clock network delay (ideal)
+                              0.0000    0.0000   clock reconvergence pessimism
+                                        0.0000 ^ _367_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                             -0.0939   -0.0939   library hold time
+                                       -0.0939   data required time
+-------------------------------------------------------------------------------------
+                                       -0.0939   data required time
+                                       -0.9079   data arrival time
+-------------------------------------------------------------------------------------
+                                        1.0019   slack (MET)
+
+
+Startpoint: _370_ (rising edge-triggered flip-flop clocked by audhi_clk_5m)
+Endpoint: _348_ (rising edge-triggered flip-flop clocked by audhi_clk_5m)
+Path Group: audhi_clk_5m
+Path Type: max
+
+Fanout       Cap      Slew     Delay      Time   Description
+-------------------------------------------------------------------------------------
+                    0.0000    0.0000    0.0000   clock audhi_clk_5m (rise edge)
+                              0.0000    0.0000   clock network delay (ideal)
+                    0.0000    0.0000    0.0000 ^ _370_/CLK (sky130_fd_sc_hd__dfxtp_1)
+     3    0.0044    0.0715    0.9135    0.9135 v _370_/Q (sky130_fd_sc_hd__dfxtp_1)
+                                                 uart_baud.rx_acc[3] (net)
+                    0.0715    0.0000    0.9135 v _176_/A (sky130_fd_sc_hd__or4_1)
+     3    0.0056    0.3057    2.7043    3.6177 v _176_/X (sky130_fd_sc_hd__or4_1)
+                                                 _073_ (net)
+                    0.3057    0.0000    3.6177 v _178_/B (sky130_fd_sc_hd__nor3_1)
+     4    0.0070    0.9494    1.1805    4.7982 ^ _178_/Y (sky130_fd_sc_hd__nor3_1)
+                                                 _075_ (net)
+                    0.9494    0.0000    4.7982 ^ _179_/D_N (sky130_fd_sc_hd__or4b_4)
+    12    0.0298    0.3960    3.0616    7.8599 v _179_/X (sky130_fd_sc_hd__or4b_4)
+                                                 _076_ (net)
+                    0.3960    0.0000    7.8599 v _260_/B1_N (sky130_fd_sc_hd__a21boi_1)
+     2    0.0036    0.1000    0.6422    8.5020 v _260_/Y (sky130_fd_sc_hd__a21boi_1)
+                                                 _129_ (net)
+                    0.1000    0.0000    8.5020 v _262_/A1 (sky130_fd_sc_hd__mux2_1)
+     1    0.0014    0.1419    1.3733    9.8753 v _262_/X (sky130_fd_sc_hd__mux2_1)
+                                                 _030_ (net)
+                    0.1419    0.0000    9.8753 v _348_/D (sky130_fd_sc_hd__dfxtp_1)
+                                        9.8753   data arrival time
+
+                    0.0000    5.0000    5.0000   clock audhi_clk_5m (rise edge)
+                              0.0000    5.0000   clock network delay (ideal)
+                              0.0000    5.0000   clock reconvergence pessimism
+                                        5.0000 ^ _348_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                             -0.7281    4.2719   library setup time
+                                        4.2719   data required time
+-------------------------------------------------------------------------------------
+                                        4.2719   data required time
+                                       -9.8753   data arrival time
+-------------------------------------------------------------------------------------
+                                       -5.6034   slack (VIOLATED)
+
+

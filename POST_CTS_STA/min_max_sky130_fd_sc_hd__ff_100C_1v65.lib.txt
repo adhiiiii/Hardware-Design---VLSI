@@ -1,0 +1,67 @@
+Startpoint: _319_ (rising edge-triggered flip-flop clocked by audhi_clk_5m)
+Endpoint: _319_ (rising edge-triggered flip-flop clocked by audhi_clk_5m)
+Path Group: audhi_clk_5m
+Path Type: min
+
+Fanout       Cap      Slew     Delay      Time   Description
+-------------------------------------------------------------------------------------
+                    0.0000    0.0000    0.0000   clock audhi_clk_5m (rise edge)
+                              0.0000    0.0000   clock network delay (ideal)
+                    0.0000    0.0000    0.0000 ^ _319_/CLK (sky130_fd_sc_hd__dfxtp_1)
+     7    0.0151    0.0763    0.2495    0.2495 v _319_/Q (sky130_fd_sc_hd__dfxtp_1)
+                                                 uart_baud.tx_acc[0] (net)
+                    0.0763    0.0000    0.2495 v _159_/A (sky130_fd_sc_hd__inv_2)
+     2    0.0033    0.0314    0.0381    0.2876 ^ _159_/Y (sky130_fd_sc_hd__inv_2)
+                                                 _001_ (net)
+                    0.0314    0.0000    0.2876 ^ _319_/D (sky130_fd_sc_hd__dfxtp_1)
+                                        0.2876   data arrival time
+
+                    0.0000    0.0000    0.0000   clock audhi_clk_5m (rise edge)
+                              0.0000    0.0000   clock network delay (ideal)
+                              0.0000    0.0000   clock reconvergence pessimism
+                                        0.0000 ^ _319_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                             -0.0279   -0.0279   library hold time
+                                       -0.0279   data required time
+-------------------------------------------------------------------------------------
+                                       -0.0279   data required time
+                                       -0.2876   data arrival time
+-------------------------------------------------------------------------------------
+                                        0.3155   slack (MET)
+
+
+Startpoint: _344_ (rising edge-triggered flip-flop clocked by audhi_clk_5m)
+Endpoint: audhi_tx_busy (output port clocked by audhi_clk_5m)
+Path Group: audhi_clk_5m
+Path Type: max
+
+Fanout       Cap      Slew     Delay      Time   Description
+-------------------------------------------------------------------------------------
+                    0.0000    0.0000    0.0000   clock audhi_clk_5m (rise edge)
+                              0.0000    0.0000   clock network delay (ideal)
+                    0.0000    0.0000    0.0000 ^ _344_/CLK (sky130_fd_sc_hd__dfxtp_1)
+     3    0.0102    0.0559    0.2869    0.2869 v _344_/Q (sky130_fd_sc_hd__dfxtp_1)
+                                                 uart_tx.state[1] (net)
+                    0.0559    0.0000    0.2869 v _172_/A (sky130_fd_sc_hd__nor2_2)
+     4    0.0112    0.1244    0.1419    0.4288 ^ _172_/Y (sky130_fd_sc_hd__nor2_2)
+                                                 _070_ (net)
+                    0.1244    0.0000    0.4288 ^ _173_/A (sky130_fd_sc_hd__inv_2)
+     1    0.0021    0.0270    0.0271    0.4560 v _173_/Y (sky130_fd_sc_hd__inv_2)
+                                                 net22 (net)
+                    0.0270    0.0000    0.4560 v output22/A (sky130_fd_sc_hd__buf_1)
+     1    0.0000    0.0112    0.0561    0.5121 v output22/X (sky130_fd_sc_hd__buf_1)
+                                                 audhi_tx_busy (net)
+                    0.0112    0.0000    0.5121 v audhi_tx_busy (out)
+                                        0.5121   data arrival time
+
+                    0.0000    5.0000    5.0000   clock audhi_clk_5m (rise edge)
+                              0.0000    5.0000   clock network delay (ideal)
+                              0.0000    5.0000   clock reconvergence pessimism
+                             -3.0000    2.0000   output external delay
+                                        2.0000   data required time
+-------------------------------------------------------------------------------------
+                                        2.0000   data required time
+                                       -0.5121   data arrival time
+-------------------------------------------------------------------------------------
+                                        1.4879   slack (MET)
+
+

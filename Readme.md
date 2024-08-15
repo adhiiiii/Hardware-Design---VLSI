@@ -86,7 +86,7 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week7/Readme.md
 4) Post-Placement STA
 5) Post-Route STA
    
-![9](https://github.com/user-attachments/assets/9f01f820-5d36-4e98-afe3-92bd87e7115c)
+![9](https://github.com/user-attachments/assets/7c2e5da9-88ae-4029-8a54-b53d52291a82)
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week8/Readme.md
 

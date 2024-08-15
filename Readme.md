@@ -78,7 +78,7 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week6/Readme.md
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week7/Readme.md
 
-## Week-8 --In progress..
+## Week-8
 
 1) OpenLane2 UART Execution
 2) Post-Synthesis STA

@@ -92,6 +92,8 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week8/Readme.md
 
 ## Week-9 --In progress..
 
+https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week9/Readme.md
+
 ### _References_
 ```
 UART

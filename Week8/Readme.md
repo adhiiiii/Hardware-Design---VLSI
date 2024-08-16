@@ -26,7 +26,7 @@
 
 ## STA - Folders - Repo folders 
 
-``` The below section(Graphs) is based on STA data, uploaded in week8 folder section ```
+``` The below section(Graphs) is based on STA data, uploaded @ week8 folder section ```
 
 ![7](https://github.com/user-attachments/assets/7e84469d-b991-4d00-9a14-87b25563a4b0)
 

@@ -1,3 +1,5 @@
-# Week 9
+# Week 9 
 
-In Progress
+In progress
+
+Caravel local dev environment complete  - currently analysing for next steps

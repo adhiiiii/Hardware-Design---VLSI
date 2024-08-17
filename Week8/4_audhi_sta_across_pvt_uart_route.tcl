@@ -1,7 +1,7 @@
 # File type - TCL
-# Desc - It generates tns, wns , max - min slack report for UART netlist file
+# Desc - It generates tns, wns , max - min slack report for UART - Post Route 
 #      - Audhivishnu K
-#      - 07/12/2024
+#      - 08/16/2024
 set systemTime [clock seconds]
 puts "\n~~~~~~~~~~~~~~~~~~~~~~~~~@Audhi~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
 puts "===============================================================";

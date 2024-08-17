@@ -2,4 +2,4 @@
 
 In progress
 
-Caravel local dev environment complete  - Analysis inprogress
+Caravel local dev environment setup complete  - Analysis inprogress

@@ -31,4 +31,4 @@
 ![10](https://github.com/user-attachments/assets/650662cd-be95-4f55-8e7f-396996604387)
 ![caravell](https://github.com/user-attachments/assets/2a4e4222-f52a-467a-8a37-913f8cbe139a)
 
-## UART Execution - In Progress..
+## UART Caravel Execution - In Progress..

@@ -94,6 +94,8 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week8/Readme.md
 
 1) Caravel Local Environment 
 
+![caravell](https://github.com/user-attachments/assets/2a4e4222-f52a-467a-8a37-913f8cbe139a)
+
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week9/Readme.md
 
 ### _References_

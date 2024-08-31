@@ -1,6 +1,6 @@
 # Week 9 
 
-## Carvel Local Environment 
+## Carvel Local Environment Setup
 
 ![1](https://github.com/user-attachments/assets/a9236684-be67-4796-a167-c33e57ef1037)
 ![2](https://github.com/user-attachments/assets/cee72184-4d15-403c-bf73-6062a8d7c2b1)

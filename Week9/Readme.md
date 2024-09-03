@@ -1,5 +1,10 @@
 # Week 9 
 
+Caravel ==> Vanilla Caravel + User Custom Project 
+
+![layout](https://github.com/user-attachments/assets/c36f2cfb-5e15-4077-ba5e-34f62a540f08)
+
+
 ## Caravel Local Environment Setup
 
 ``` Ref : https://github.com/efabless/caravel_user_project/blob/main/docs/source/quickstart.rst```

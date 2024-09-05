@@ -39,3 +39,9 @@ Caravel ==> Vanilla Caravel + User Custom Project
 ![caravell](https://github.com/user-attachments/assets/2a4e4222-f52a-467a-8a37-913f8cbe139a)
 
 ## UART Caravel Execution - In Progress..
+
+### _References_
+```
+Caravel
+1.https://caravel-user-project.readthedocs.io/en/latest/
+```

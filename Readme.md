@@ -90,7 +90,7 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week7/Readme.md
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week8/Readme.md
 
-## Week-9 --In progress
+## Week-9 
 
 1) Caravel Local Environment 
 
@@ -99,6 +99,10 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week8/Readme.md
 2) UART Caravel gds
 
 ![2_5](https://github.com/user-attachments/assets/feab1ecc-6983-4a66-a538-c5b6e98ae630)
+
+3) Caravel UART wrapper gds II
+
+![06](https://github.com/user-attachments/assets/f42214a9-98e0-4d09-990b-9034c2a8a282)
 
 https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week9/Readme.md
 

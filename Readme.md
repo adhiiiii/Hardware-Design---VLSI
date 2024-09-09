@@ -96,7 +96,7 @@ https://github.com/adhiiiii/Hardware-Design---VLSI/blob/main/Week8/Readme.md
 
 ![caravell](https://github.com/user-attachments/assets/2a4e4222-f52a-467a-8a37-913f8cbe139a)
 
-2) UART Caravel gds
+2) UART Caravel gds II
 
 ![2_5](https://github.com/user-attachments/assets/feab1ecc-6983-4a66-a538-c5b6e98ae630)
 

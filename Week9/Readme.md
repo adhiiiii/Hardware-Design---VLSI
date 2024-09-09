@@ -38,7 +38,7 @@ Caravel ==> Vanilla Caravel + User Custom Project
 ![10](https://github.com/user-attachments/assets/650662cd-be95-4f55-8e7f-396996604387)
 ![caravell](https://github.com/user-attachments/assets/2a4e4222-f52a-467a-8a37-913f8cbe139a)
 
-## UART Caravel Execution - In Progress..
+## UART Caravel Execution 
 
 ``` Ref : https://caravel-harness.readthedocs.io/en/latest/caravel-with-openlane.html ```
 
@@ -48,6 +48,18 @@ Caravel ==> Vanilla Caravel + User Custom Project
 ![2_3](https://github.com/user-attachments/assets/0a1eb2bb-16c0-4645-9af4-13cd60466bf1)
 ![2_1](https://github.com/user-attachments/assets/9cefef9e-9cb1-487e-8cc9-4e6ffbfd8b21)
 ![2_5](https://github.com/user-attachments/assets/feab1ecc-6983-4a66-a538-c5b6e98ae630)
+
+## Caravel Harness Chip 
+
+### Higlighted used as per UART scope
+
+![05](https://github.com/user-attachments/assets/16992b3e-bfe6-4513-9013-23aad1523cc4)
+
+## Caravel User Project Wrapper
+
+### Final Caravel UART Wrapper GDS 
+
+![06](https://github.com/user-attachments/assets/f42214a9-98e0-4d09-990b-9034c2a8a282)
 
 ### _References_
 ```
